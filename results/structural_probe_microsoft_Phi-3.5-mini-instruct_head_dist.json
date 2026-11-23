@@ -1,0 +1,19 @@
+{
+  "model": "microsoft/Phi-3.5-mini-instruct",
+  "label": "head_dist",
+  "n_layer": 32,
+  "layers": {
+    "layer16": {
+      "trained": {
+        "norm_spearman": 0.43565093237807545,
+        "n_sentences": 450
+      }
+    },
+    "layer24": {
+      "trained": {
+        "norm_spearman": 0.35689276490689137,
+        "n_sentences": 450
+      }
+    }
+  }
+}

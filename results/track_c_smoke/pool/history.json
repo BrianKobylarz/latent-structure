@@ -1,0 +1,30 @@
+{
+  "name": "pool",
+  "params_M": 16.09088,
+  "evals": [
+    {
+      "step": 100,
+      "tokens_seen": 409600,
+      "train_loss": 9.395925936698914,
+      "clean_val_loss": 7.592164025306702
+    },
+    {
+      "step": 200,
+      "tokens_seen": 819200,
+      "train_loss": 7.068947987556458,
+      "clean_val_loss": 6.895653184652328
+    },
+    {
+      "step": 300,
+      "tokens_seen": 1228800,
+      "train_loss": 6.723206548690796,
+      "clean_val_loss": 6.727036963701249
+    },
+    {
+      "step": 400,
+      "tokens_seen": 1638400,
+      "train_loss": 6.624644165039062,
+      "clean_val_loss": 6.69903312087059
+    }
+  ]
+}

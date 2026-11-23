@@ -1,0 +1,99 @@
+# Pilot configuration for the latent-structure perturbation study.
+
+# Where generated corpora (data/) and run artifacts (runs/) are written.
+# Checkpoints are large (about 2.6 GB for the full set of runs); point this at a
+# drive with room. The recorded results shipped in results/ mirror the layout of
+# <storage_root>/runs/.
+storage_root: "./storage"
+
+seed: 0
+
+corpus:
+  name: wikitext-103-raw-v1
+  train_split: train
+  eval_split: validation
+  # Pilot caps -- raise these once the apparatus is validated. Detection runs
+  # spaCy over every document, so the build time scales with max_documents.
+  max_documents: 3000
+  min_doc_chars: 500
+
+# Interventions to materialize as corpus variants. The clean corpus is always
+# written. See latent_structure/perturb.py for definitions.
+interventions:
+  - modal_mask
+  - modal_delete
+  - modal_within_swap
+  - modal_cross_swap
+  - modal_polarity
+  - control_mask        # frequency-matched non-modal masking (the confound check)
+  - shuffle_words       # paper baseline (unigram preserved)
+  - random_strings      # paper baseline (no signal)
+
+random_vocab_size: 10000
+
+# Phase 3 smoke-run training. One small model per variant, short run, just to
+# validate the train+eval loop and that the clean-data NLL decomposition gives
+# sane signal before any larger sweep.
+training:
+  size: tiny              # see model.PRESETS (tiny ~ 256d/4L)
+  steps: 2000
+  batch_size: 16
+  lr: 0.0006
+  warmup_steps: 100
+  weight_decay: 0.1
+  grad_clip: 1.0
+  eval_every: 500
+  eval_max_documents: 300   # clean validation docs used for the decomposition
+  post_modal_window: 5
+  max_train_tokens: 8000000
+
+# Phase 4 modal minimal-pair evaluation (the gold-standard metric: robust to the
+# entropy/sentinel confound that affects NLL).
+minimal_pairs:
+  max_sentences: 4000          # clean held-out sentences to scan for single-modal items
+  max_items_per_contrast: 800  # cap per contrast type (cross / polarity / within)
+
+# Planted non-salient structure experiment.
+planted:
+  carrier_vocab: 64
+  d_max: 8
+  seq_len: 256
+  n_seqs: 20000
+  preset: tiny
+  steps: 4000
+  batch_size: 64
+  eval_every: 500
+  rule_p_sweep: [1.0, 0.3, 0.0]                # Phase B bridge: deterministic / faint / control
+  shuffle_control: false
+  needle_mode: false
+  carrier_mode: natural                        # real WikiText carrier (interference test)
+  natural_vocab_k: 512
+
+# Phase B: natural non-salient structure (syntactic dependency depth).
+phaseB:
+  n_sentences: 30000
+  vocab_k: 512
+  seq_len: 256
+  max_documents: 2000
+  preset: tiny
+  steps: 3000
+  batch_size: 64
+
+# Track C: junk-beats-clean crossing trainer.
+# Defaults are the cloud-GPU target (not run); --smoke overrides to a fast local harness check.
+track_c:
+  pool_tokens: 670000000      # ~670M-token pool (paper's downscaled pool)
+  junk_ratio: 2.0             # +200% junk injected per arm
+  junk_modes: [shuffle, unigram]  # arms: shuffle (preserves co-occurrence) vs
+                              # unigram (global-i.i.d.; co-occurrence DESTROYED).
+                              # If shuffle helps but unigram doesn't -> it's co-occurrence.
+  n_embd: 1024                # ~330-355M at 24 layers (the documented minimum size)
+  n_layer: 24
+  n_head: 16
+  ctx: 1024
+  steps: 200000              # set high; the crossing needs ~11B tokens (cloud GPUs)
+  batch_size: 32
+  lr: 0.0003
+  eval_every: 2000
+  eval_tokens: 1000000
+

@@ -1,0 +1,49 @@
+[planted] building natural carrier stream (k=512) ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[planted] natural stream tokens=5,000,000
+[planted rule_p=1.0] vocab=516 ctx=256 params total=3,357,184 non_emb=3,159,552 ngram_null=0.674 oracle=1.000 device=cuda
+[planted rule_p=1.0] step   500 loss=3.178 marker_acc=0.961 (null=0.674 oracle=1.000 margin=+0.287)
+[planted rule_p=1.0] step  1000 loss=2.824 marker_acc=0.982 (null=0.674 oracle=1.000 margin=+0.309)
+[planted rule_p=1.0] step  1500 loss=2.747 marker_acc=0.985 (null=0.674 oracle=1.000 margin=+0.311)
+[planted rule_p=1.0] step  2000 loss=2.702 marker_acc=0.994 (null=0.674 oracle=1.000 margin=+0.320)
+[planted rule_p=1.0] step  2500 loss=2.668 marker_acc=0.999 (null=0.674 oracle=1.000 margin=+0.326)
+[planted rule_p=1.0] step  3000 loss=2.642 marker_acc=0.999 (null=0.674 oracle=1.000 margin=+0.325)
+[planted rule_p=1.0] step  3500 loss=2.625 marker_acc=1.000 (null=0.674 oracle=1.000 margin=+0.326)
+[planted rule_p=1.0] step  4000 loss=2.615 marker_acc=1.000 (null=0.674 oracle=1.000 margin=+0.326)
+[planted rule_p=0.3] vocab=516 ctx=256 params total=3,357,184 non_emb=3,159,552 ngram_null=0.519 oracle=0.650 device=cuda
+[planted rule_p=0.3] step   500 loss=3.226 marker_acc=0.851 (null=0.519 oracle=0.650 margin=+0.331)
+[planted rule_p=0.3] step  1000 loss=2.886 marker_acc=0.935 (null=0.519 oracle=0.650 margin=+0.416)
+[planted rule_p=0.3] step  1500 loss=2.820 marker_acc=0.950 (null=0.519 oracle=0.650 margin=+0.431)
+[planted rule_p=0.3] step  2000 loss=2.776 marker_acc=0.907 (null=0.519 oracle=0.650 margin=+0.388)
+[planted rule_p=0.3] step  2500 loss=2.741 marker_acc=0.969 (null=0.519 oracle=0.650 margin=+0.450)
+[planted rule_p=0.3] step  3000 loss=2.714 marker_acc=0.978 (null=0.519 oracle=0.650 margin=+0.459)
+[planted rule_p=0.3] step  3500 loss=2.694 marker_acc=0.982 (null=0.519 oracle=0.650 margin=+0.463)
+[planted rule_p=0.3] step  4000 loss=2.684 marker_acc=0.983 (null=0.519 oracle=0.650 margin=+0.464)
+[planted rule_p=0.0] vocab=516 ctx=256 params total=3,357,184 non_emb=3,159,552 ngram_null=0.501 oracle=0.500 device=cuda
+[planted rule_p=0.0] step   500 loss=3.225 marker_acc=0.471 (null=0.501 oracle=0.500 margin=-0.030)
+[planted rule_p=0.0] step  1000 loss=2.893 marker_acc=0.573 (null=0.501 oracle=0.500 margin=+0.072)
+[planted rule_p=0.0] step  1500 loss=2.825 marker_acc=0.521 (null=0.501 oracle=0.500 margin=+0.020)
+[planted rule_p=0.0] step  2000 loss=2.781 marker_acc=0.510 (null=0.501 oracle=0.500 margin=+0.009)
+[planted rule_p=0.0] step  2500 loss=2.748 marker_acc=0.516 (null=0.501 oracle=0.500 margin=+0.015)
+[planted rule_p=0.0] step  3000 loss=2.721 marker_acc=0.494 (null=0.501 oracle=0.500 margin=-0.007)
+[planted rule_p=0.0] step  3500 loss=2.700 marker_acc=0.495 (null=0.501 oracle=0.500 margin=-0.006)
+[planted rule_p=0.0] step  4000 loss=2.690 marker_acc=0.503 (null=0.501 oracle=0.500 margin=+0.003)
+=== planted-structure frontier: marker accuracy vs null/oracle ===
+condition           marker_acc  ngram_null   oracle   margin
+------------------------------------------------------------
+natural_rule_p=1.0       1.000       0.674    1.000   +0.326
+natural_rule_p=0.3       0.983       0.519    0.650   +0.464
+natural_rule_p=0.0       0.503       0.501    0.500   +0.003
+[planted] wrote <storage_root>\runs\planted\summary.json
+[probe natural_rule_p_0.0 L4] acc real=0.509 ctrl=0.150 | MDL trained=52679b rand=72902b (rand/trained=1.38)
+[probe natural_rule_p_0.3 L4] acc real=0.729 ctrl=0.141 | MDL trained=34795b rand=72685b (rand/trained=2.09)
+[probe natural_rule_p_1.0 L4] acc real=0.803 ctrl=0.143 | MDL trained=26831b rand=68897b (rand/trained=2.57)
+[probe] wrote <storage_root>\runs\planted\probe_results.json
+=== causal interchange intervention: natural_rule_p_1.0 (thresh=4) ===
+ layer  opp_flip  low->high  high->low  same_ctrl
+     1     0.994      0.993      0.996      0.005
+     2     1.000      1.000      1.000      0.000
+     3     1.000      1.000      1.000      0.000
+     4     1.000      1.000      1.000      0.000
+[intervene] wrote <storage_root>\runs\planted\natural_rule_p_1.0\intervention_results.json
+BRIDGE_EXIT=0

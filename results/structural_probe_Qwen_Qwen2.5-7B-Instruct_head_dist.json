@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "label": "head_dist",
+  "n_layer": 28,
+  "layers": {
+    "layer14": {
+      "trained": {
+        "norm_spearman": 0.45340313270760274,
+        "n_sentences": 450
+      }
+    },
+    "layer21": {
+      "trained": {
+        "norm_spearman": 0.4431886573357794,
+        "n_sentences": 450
+      }
+    }
+  }
+}

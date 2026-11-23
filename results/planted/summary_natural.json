@@ -1,0 +1,26 @@
+{
+  "natural_rule_p=1.0": {
+    "step": 4000,
+    "train_loss": 2.61461394739151,
+    "marker_acc": 0.9998037240097877,
+    "margin_over_ngram": 0.32618405967781994,
+    "ngram_null": 0.6736196643319677,
+    "oracle": 1.0
+  },
+  "natural_rule_p=0.3": {
+    "step": 4000,
+    "train_loss": 2.683503870010376,
+    "marker_acc": 0.9828062232573963,
+    "margin_over_ngram": 0.4635639019548311,
+    "ngram_null": 0.5192423213025652,
+    "oracle": 0.6503556899316497
+  },
+  "natural_rule_p=0.0": {
+    "step": 4000,
+    "train_loss": 2.689555895328522,
+    "marker_acc": 0.5034479148947306,
+    "margin_over_ngram": 0.002554562178991193,
+    "ngram_null": 0.5008933527157394,
+    "oracle": 0.5003002619639086
+  }
+}

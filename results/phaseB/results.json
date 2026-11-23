@@ -1,0 +1,100 @@
+{
+  "params": {
+    "total": 3356160,
+    "non_embedding": 3159552
+  },
+  "layers": {
+    "layer1": {
+      "layer": 1,
+      "accuracy": {
+        "real": 0.32725010369141433,
+        "control_task": 0.2079358495783216,
+        "n_classes": 13
+      },
+      "mdl_trained": {
+        "total_bits": 64157.17317000386,
+        "uniform_bits": 89217.60160438174,
+        "compression": 1.3906099224161994,
+        "bits_per_token": 2.661019210701114
+      },
+      "mdl_random_init": {
+        "total_bits": 69326.04793504075,
+        "uniform_bits": 89217.60160438174,
+        "compression": 1.2869275584262294,
+        "bits_per_token": 2.8754063846968374
+      },
+      "mdl_ratio_rand_over_trained": 1.0805658122021742,
+      "n_classes": 13,
+      "majority": 0.21737868104520947
+    },
+    "layer2": {
+      "layer": 2,
+      "accuracy": {
+        "real": 0.3395548181943868,
+        "control_task": 0.20627678694870732,
+        "n_classes": 13
+      },
+      "mdl_trained": {
+        "total_bits": 64162.89061880575,
+        "uniform_bits": 89217.60160438174,
+        "compression": 1.390486007471624,
+        "bits_per_token": 2.661256350842213
+      },
+      "mdl_random_init": {
+        "total_bits": 69867.12904233663,
+        "uniform_bits": 89217.60160438174,
+        "compression": 1.2769610377194618,
+        "bits_per_token": 2.89784857081446
+      },
+      "mdl_ratio_rand_over_trained": 1.0889024538719738,
+      "n_classes": 13,
+      "majority": 0.21737868104520947
+    },
+    "layer3": {
+      "layer": 3,
+      "accuracy": {
+        "real": 0.33582192727775473,
+        "control_task": 0.20420295866168947,
+        "n_classes": 13
+      },
+      "mdl_trained": {
+        "total_bits": 65222.71403353599,
+        "uniform_bits": 89217.60160438174,
+        "compression": 1.3678915838814703,
+        "bits_per_token": 2.7052141863764407
+      },
+      "mdl_random_init": {
+        "total_bits": 70199.26870149007,
+        "uniform_bits": 89217.60160438174,
+        "compression": 1.2709192453807994,
+        "bits_per_token": 2.9116245832223173
+      },
+      "mdl_ratio_rand_over_trained": 1.0763009442599285,
+      "n_classes": 13,
+      "majority": 0.21737868104520947
+    },
+    "layer4": {
+      "layer": 4,
+      "accuracy": {
+        "real": 0.3240702336513203,
+        "control_task": 0.20102308862159546,
+        "n_classes": 13
+      },
+      "mdl_trained": {
+        "total_bits": 75640.09006467537,
+        "uniform_bits": 89217.60160438174,
+        "compression": 1.1795015252903194,
+        "bits_per_token": 3.1372911681740097
+      },
+      "mdl_random_init": {
+        "total_bits": 74310.1796885888,
+        "uniform_bits": 89217.60160438174,
+        "compression": 1.2006107639392796,
+        "bits_per_token": 3.0821310530314725
+      },
+      "mdl_ratio_rand_over_trained": 0.9824179165446598,
+      "n_classes": 13,
+      "majority": 0.21737868104520947
+    }
+  }
+}

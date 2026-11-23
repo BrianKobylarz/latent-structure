@@ -1,0 +1,13 @@
+{
+  "final_clean_val": {
+    "pool": 6.69903312087059,
+    "pool+shuffle": 7.052180291414261,
+    "pool+unigram": 7.040422266721725
+  },
+  "deltas_vs_pool": {
+    "pool+shuffle": 0.3531471705436706,
+    "pool+unigram": 0.3413891458511351
+  },
+  "wall_seconds": 60.52991247177124,
+  "smoke": true
+}

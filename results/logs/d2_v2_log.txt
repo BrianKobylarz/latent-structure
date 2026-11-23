@@ -1,0 +1,24 @@
+[d2] parsing + collecting activations ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[d2] X=(60008, 768); training SAE ...
+[sae] step 1000 loss 53.830 FVU 0.001 L0 1138.3
+[sae] step 2000 loss 20.280 FVU 0.001 L0 855.2
+[sae] step 3000 loss 16.998 FVU 0.001 L0 721.2
+[sae] step 4000 loss 15.898 FVU 0.001 L0 639.5
+[d2] SAE FVU=0.001 L0=635.4 (6144 features, 6144 active)
+[d2] feature taxonomy: {'token_detector': 231, 'explained_by_props': 6, 'unexplained': 5907, 'n_active': 6144}
+[d2] top 12 UNEXPLAINED features (not token-detector, known-property R2<=0.3) -- top-activating words:
+  feat  1584 (R2=0.00, tokdom=0.06, fires 355): 'of', 'Fitch', 'time', 'largely', 'of', 'says', 'sheltered', 'evidence'
+  feat  3124 (R2=0.00, tokdom=0.06, fires 339): 'public', 'public', 'tide', 'Army', 'resolve', 'the', 'side', 'side'
+  feat    63 (R2=0.00, tokdom=0.06, fires 533): 'Asa', 'to', 'the', 'racer', 'its', 'and', 'for', 'by'
+  feat  5308 (R2=0.00, tokdom=0.10, fires 689): 'me', 'Federal', 'Chinese', 'that', 'Malcolm', '26th', 'of', 'lane'
+  feat  1483 (R2=0.00, tokdom=0.10, fires 688): 'Ceasefire', 'bombing', 'to', 'time', 'reason', 'longer', '1', 'Aftermath'
+  feat  5474 (R2=0.00, tokdom=0.05, fires 428): 'the', 'to', 'Jackie', '1890', 'I', 'dead', 'resemblance', 'that'
+  feat   661 (R2=0.00, tokdom=0.06, fires 398): 'Threefoot', 'Threefoot', 'Threefoot', 'Threefoot', 'intersection', 'Threefoot', 'attend', 'its'
+  feat  1649 (R2=0.00, tokdom=0.03, fires 387): 'they', 'NoÃ«l', '.', '!', '1', 'usurper', 'always', 'were'
+  feat  5196 (R2=0.00, tokdom=0.15, fires 581): 'New', 'Cancer', 'after', 'permit', 'planetary', 'spines', 'in', 'at'
+  feat  2776 (R2=0.00, tokdom=0.13, fires 759): 'Front', 'by', 'all', '"', 'setting', 'offensive', 'front', 'of'
+  feat  2739 (R2=0.00, tokdom=0.08, fires 354): 'Idi', 'Wanna', 'preponderance', 'off', 'Billie', 'the', '&', 'to'
+  feat  5292 (R2=0.00, tokdom=0.11, fires 678): 'over', 'Â°', 'over', 'record', 'racer', 'Â°', 'Wanna', 'versions'
+[d2] wrote <storage_root>\runs\sae_discover_gpt2_L6.json
+D2_EXIT=0

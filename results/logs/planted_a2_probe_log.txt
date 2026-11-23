@@ -1,0 +1,10 @@
+[probe rule_p_0.5 L4] acc real=0.991 ctrl=0.163 | MDL trained=6407b rand=74595b (rand/trained=11.64)
+[probe rule_p_0.6 L4] acc real=0.992 ctrl=0.166 | MDL trained=6534b rand=74026b (rand/trained=11.33)
+[probe rule_p_0.75 L4] acc real=0.994 ctrl=0.165 | MDL trained=5882b rand=71798b (rand/trained=12.21)
+[probe rule_p_0.9 L4] acc real=0.996 ctrl=0.162 | MDL trained=6377b rand=70120b (rand/trained=11.00)
+[probe rule_p_1.0 L1] acc real=0.997 ctrl=0.160 | MDL trained=4610b rand=67594b (rand/trained=14.66)
+[probe rule_p_1.0 L2] acc real=0.999 ctrl=0.166 | MDL trained=4183b rand=66384b (rand/trained=15.87)
+[probe rule_p_1.0 L3] acc real=0.999 ctrl=0.165 | MDL trained=4171b rand=66998b (rand/trained=16.06)
+[probe rule_p_1.0 L4] acc real=0.998 ctrl=0.168 | MDL trained=5603b rand=70276b (rand/trained=12.54)
+[probe] wrote <storage_root>\runs\planted\probe_results.json
+A2_EXIT=0

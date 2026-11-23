@@ -1,0 +1,49 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "label": "depth",
+  "n_layer": 28,
+  "n_positions": 10007,
+  "metric": "compression(uniform/trained)",
+  "layers": {
+    "layer7": {
+      "accuracy": {
+        "real": 0.3646353646353646,
+        "control_task": 0.21878121878121878,
+        "n_classes": 13
+      },
+      "mdl_trained": 27277.609006564435,
+      "uniform_bits": 37030.30025943791,
+      "compression": 1.3575346816697336
+    },
+    "layer14": {
+      "accuracy": {
+        "real": 0.37395937395937395,
+        "control_task": 0.2127872127872128,
+        "n_classes": 13
+      },
+      "mdl_trained": 26670.80716978795,
+      "uniform_bits": 37030.30025943791,
+      "compression": 1.388420681222762
+    },
+    "layer21": {
+      "accuracy": {
+        "real": 0.38794538794538797,
+        "control_task": 0.21744921744921744,
+        "n_classes": 13
+      },
+      "mdl_trained": 26465.470890373745,
+      "uniform_bits": 37030.30025943791,
+      "compression": 1.3991929489116666
+    },
+    "layer28": {
+      "accuracy": {
+        "real": 0.40725940725940724,
+        "control_task": 0.1754911754911755,
+        "n_classes": 13
+      },
+      "mdl_trained": 97356.74347111965,
+      "uniform_bits": 37030.30025943791,
+      "compression": 0.3803568087753751
+    }
+  }
+}

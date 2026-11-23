@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "layer": 14,
+  "depth_nspr": 0.5744581495879421,
+  "n_shallow": 493,
+  "n_deep": 505,
+  "shallow": {
+    "base": 3.0842037200927734,
+    "depth_abl": 7.042378902435303,
+    "rand_abl": 11.370471000671387
+  },
+  "deep": {
+    "base": 1.2283761501312256,
+    "depth_abl": 5.7945780754089355,
+    "rand_abl": 9.736151695251465
+  },
+  "delta_deep_depth": 4.566202163696289,
+  "delta_shallow_depth": 3.9581751823425293,
+  "delta_deep_random": 8.50777530670166
+}

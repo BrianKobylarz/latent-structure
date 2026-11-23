@@ -1,0 +1,24 @@
+[d2] parsing + collecting activations ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[d2] X=(60008, 768); training SAE ...
+[sae] step 1000 loss 69.139 FVU 0.006 L0 82.4
+[sae] step 2000 loss 62.050 FVU 0.004 L0 53.3
+[sae] step 3000 loss 57.293 FVU 0.004 L0 41.2
+[sae] step 4000 loss 54.227 FVU 0.004 L0 37.0
+[d2] SAE FVU=0.004 L0=36.2 (6144 features, 1431 active)
+[d2] feature taxonomy: {'token_detector': 129, 'explained_by_props': 3, 'unexplained': 1299, 'n_active': 1431}
+[d2] top 12 UNEXPLAINED features (not token-detector, known-property R2<=0.3) -- top-activating words:
+  feat  1551 (R2=0.00, tokdom=0.12, fires 320): 'Fred', 'Fred', 'Fred', 'addition', 'addition', 'addition', 'addition', 'addition'
+  feat  2030 (R2=0.00, tokdom=0.12, fires 336): 'record', 'record', 'record', 'record', 'records', 'record', 'record', 'record'
+  feat  2313 (R2=0.00, tokdom=0.13, fires 302): 'length', 'length', 'length', 'length', 'length', 'length', 'length', 'length'
+  feat  1223 (R2=0.00, tokdom=0.08, fires 303): 'Blood', 'Blood', 'Blood', 'Blood', 'Blood', 'Blood', 'Blood', 'Blood'
+  feat  4268 (R2=0.00, tokdom=0.05, fires 311): 'audition', 'verbally', 'individual', 'verbal', 'misinterpret', 'verbal', 'woman', 'four'
+  feat  3211 (R2=0.00, tokdom=0.10, fires 501): 'gill', 'gill', 'gill', 'gill', 'gills', 'gills', 'gills', 'gills'
+  feat  4021 (R2=0.00, tokdom=0.19, fires 859): 'm2', 'm2', 'm2', 'm2', 'km2', 'km2', 'km2', 'km2'
+  feat   870 (R2=0.00, tokdom=0.13, fires 410): 'of', 'of', 'of', 'of', 'of', 'supply', 'supply', 'supply'
+  feat  2623 (R2=0.00, tokdom=0.06, fires 372): 'guest', 'guest', 'guest', 'wrote', 'guest', 'guest', 'guest', 'â€”'
+  feat  5990 (R2=0.00, tokdom=0.06, fires 379): 'Bostaph', 'Bostaph', 'Bostaph', 'Bostaph', '00', '00', '00', '00'
+  feat  4028 (R2=0.00, tokdom=0.20, fires 525): 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time'
+  feat  1724 (R2=0.00, tokdom=0.14, fires 581): 'terminus', 'terminus', 'terminus', 'terminus', 'terminus', 'terminus', 'terminus', 'terminus'
+[d2] wrote <storage_root>\runs\sae_discover_gpt2_L6.json
+D2v3_EXIT=0

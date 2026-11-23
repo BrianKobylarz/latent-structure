@@ -1,0 +1,49 @@
+{
+  "model": "microsoft/Phi-3.5-mini-instruct",
+  "label": "depth",
+  "n_layer": 32,
+  "n_positions": 10004,
+  "metric": "compression(uniform/trained)",
+  "layers": {
+    "layer8": {
+      "accuracy": {
+        "real": 0.3167888074616922,
+        "control_task": 0.2145236508994004,
+        "n_classes": 13
+      },
+      "mdl_trained": 28449.056079046597,
+      "uniform_bits": 37019.19894028349,
+      "compression": 1.3012452447429004
+    },
+    "layer16": {
+      "accuracy": {
+        "real": 0.3317788141239174,
+        "control_task": 0.22318454363757495,
+        "n_classes": 13
+      },
+      "mdl_trained": 27946.760522707453,
+      "uniform_bits": 37019.19894028349,
+      "compression": 1.324632918015827
+    },
+    "layer24": {
+      "accuracy": {
+        "real": 0.37808127914723516,
+        "control_task": 0.19920053297801465,
+        "n_classes": 13
+      },
+      "mdl_trained": 29716.470337236504,
+      "uniform_bits": 37019.19894028349,
+      "compression": 1.2457468373656824
+    },
+    "layer32": {
+      "accuracy": {
+        "real": 0.388074616922052,
+        "control_task": 0.1725516322451699,
+        "n_classes": 13
+      },
+      "mdl_trained": 53295.38688749463,
+      "uniform_bits": 37019.19894028349,
+      "compression": 0.6946041881341474
+    }
+  }
+}

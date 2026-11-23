@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "layer": 18,
+  "depth_nspr": 0.5180781370580289,
+  "n_shallow": 493,
+  "n_deep": 505,
+  "shallow": {
+    "base": 3.916184425354004,
+    "depth_abl": 5.05456018447876,
+    "rand_abl": 7.815774917602539
+  },
+  "deep": {
+    "base": 1.6613311767578125,
+    "depth_abl": 2.759047269821167,
+    "rand_abl": 5.257295608520508
+  },
+  "delta_deep_depth": 1.0977160930633545,
+  "delta_shallow_depth": 1.1383757591247559,
+  "delta_deep_random": 3.5959644317626953
+}

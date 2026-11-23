@@ -1,0 +1,39 @@
+[planted rule_p=0.5] vocab=68 ctx=256 params total=3,242,496 non_emb=3,159,552 ngram_null=0.562 oracle=0.750 device=cuda
+[planted rule_p=0.5] step   500 loss=3.574 marker_acc=0.927 (null=0.562 oracle=0.750 margin=+0.365)
+[planted rule_p=0.5] step  1000 loss=3.559 marker_acc=0.940 (null=0.562 oracle=0.750 margin=+0.378)
+[planted rule_p=0.5] step  1500 loss=3.558 marker_acc=0.926 (null=0.562 oracle=0.750 margin=+0.365)
+[planted rule_p=0.5] step  2000 loss=3.556 marker_acc=0.942 (null=0.562 oracle=0.750 margin=+0.380)
+[planted rule_p=0.5] step  2500 loss=3.555 marker_acc=0.949 (null=0.562 oracle=0.750 margin=+0.388)
+[planted rule_p=0.5] step  3000 loss=3.554 marker_acc=0.948 (null=0.562 oracle=0.750 margin=+0.387)
+[planted rule_p=0.5] step  3500 loss=3.553 marker_acc=0.951 (null=0.562 oracle=0.750 margin=+0.389)
+[planted rule_p=0.5] step  4000 loss=3.552 marker_acc=0.950 (null=0.562 oracle=0.750 margin=+0.389)
+[planted rule_p=0.3] vocab=68 ctx=256 params total=3,242,496 non_emb=3,159,552 ngram_null=0.529 oracle=0.650 device=cuda
+[planted rule_p=0.3] step   500 loss=3.582 marker_acc=0.871 (null=0.529 oracle=0.650 margin=+0.341)
+[planted rule_p=0.3] step  1000 loss=3.569 marker_acc=0.892 (null=0.529 oracle=0.650 margin=+0.363)
+[planted rule_p=0.3] step  1500 loss=3.569 marker_acc=0.885 (null=0.529 oracle=0.650 margin=+0.356)
+[planted rule_p=0.3] step  2000 loss=3.568 marker_acc=0.883 (null=0.529 oracle=0.650 margin=+0.353)
+[planted rule_p=0.3] step  2500 loss=3.567 marker_acc=0.880 (null=0.529 oracle=0.650 margin=+0.351)
+[planted rule_p=0.3] step  3000 loss=3.566 marker_acc=0.878 (null=0.529 oracle=0.650 margin=+0.349)
+[planted rule_p=0.3] step  3500 loss=3.564 marker_acc=0.878 (null=0.529 oracle=0.650 margin=+0.348)
+[planted rule_p=0.3] step  4000 loss=3.564 marker_acc=0.878 (null=0.529 oracle=0.650 margin=+0.348)
+[planted rule_p=0.1] vocab=68 ctx=256 params total=3,242,496 non_emb=3,159,552 ngram_null=0.506 oracle=0.551 device=cuda
+[planted rule_p=0.1] step   500 loss=3.586 marker_acc=0.711 (null=0.506 oracle=0.551 margin=+0.205)
+[planted rule_p=0.1] step  1000 loss=3.574 marker_acc=0.755 (null=0.506 oracle=0.551 margin=+0.249)
+[planted rule_p=0.1] step  1500 loss=3.573 marker_acc=0.723 (null=0.506 oracle=0.551 margin=+0.217)
+[planted rule_p=0.1] step  2000 loss=3.571 marker_acc=0.719 (null=0.506 oracle=0.551 margin=+0.213)
+[planted rule_p=0.1] step  2500 loss=3.569 marker_acc=0.722 (null=0.506 oracle=0.551 margin=+0.216)
+[planted rule_p=0.1] step  3000 loss=3.565 marker_acc=0.703 (null=0.506 oracle=0.551 margin=+0.197)
+[planted rule_p=0.1] step  3500 loss=3.563 marker_acc=0.697 (null=0.506 oracle=0.551 margin=+0.191)
+[planted rule_p=0.1] step  4000 loss=3.561 marker_acc=0.697 (null=0.506 oracle=0.551 margin=+0.191)
+=== planted-structure frontier: marker accuracy vs null/oracle ===
+condition           marker_acc  ngram_null   oracle   margin
+------------------------------------------------------------
+needle_rule_p=0.5        0.950       0.562    0.750   +0.389
+needle_rule_p=0.3        0.878       0.529    0.650   +0.348
+needle_rule_p=0.1        0.697       0.506    0.551   +0.191
+[planted] wrote <storage_root>\runs\planted\summary.json
+[probe needle_rule_p_0.1 L4] acc real=0.272 ctrl=0.159 | MDL trained=68738b rand=72263b (rand/trained=1.05)
+[probe needle_rule_p_0.3 L4] acc real=0.392 ctrl=0.170 | MDL trained=53598b rand=71747b (rand/trained=1.34)
+[probe needle_rule_p_0.5 L4] acc real=0.598 ctrl=0.174 | MDL trained=37519b rand=70466b (rand/trained=1.88)
+[probe] wrote <storage_root>\runs\planted\probe_results.json
+A7_EXIT=0

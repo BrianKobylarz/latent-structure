@@ -1,0 +1,20 @@
+{
+  "model": "gpt2",
+  "layer": 6,
+  "depth_nspr": 0.6579610589547934,
+  "n_shallow": 411,
+  "n_deep": 239,
+  "shallow": {
+    "base": 4.171671390533447,
+    "depth_abl": 5.833607196807861,
+    "rand_abl": 7.9828877449035645
+  },
+  "deep": {
+    "base": 2.670058250427246,
+    "depth_abl": 4.796353340148926,
+    "rand_abl": 7.398595809936523
+  },
+  "delta_deep_depth": 2.1262950897216797,
+  "delta_shallow_depth": 1.661935806274414,
+  "delta_deep_random": 4.728537559509277
+}

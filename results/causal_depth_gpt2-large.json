@@ -1,0 +1,12 @@
+{
+  "model": "gpt2-large",
+  "layer": 18,
+  "rank": 128,
+  "depth_nspr": 0.6290413794050294,
+  "lm_loss_baseline": 4.429607621828715,
+  "lm_loss_depth_ablated": 4.4243616958459215,
+  "lm_loss_random_ablated": 4.613509052991867,
+  "delta_depth": -0.005245925982793054,
+  "delta_random": 0.18390143116315283,
+  "depth_over_random": -0.02852574839188309
+}

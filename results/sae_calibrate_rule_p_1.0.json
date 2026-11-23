@@ -1,0 +1,13 @@
+{
+  "condition": "rule_p_1.0",
+  "layer": 2,
+  "fvu": 0.0010410281829535961,
+  "l0": 34.723873138427734,
+  "n_features": 2048,
+  "best_feature": 418,
+  "best_feature_depth_corr": 0.7740135704513492,
+  "n_features_corr_gt_0.3": 65,
+  "depth_spearman_from_sae_code": 0.9921166655402776,
+  "depth_spearman_from_raw_acts": 0.9921210240062557,
+  "verdict": "SAE RECOVERS the planted latent"
+}

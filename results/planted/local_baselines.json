@@ -1,0 +1,2697 @@
+{
+  "rule_p_1.0": {
+    "rule_p": 1.0,
+    "needle_mode": false,
+    "emitted_equals_rule": 1.0,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.6163310318874817,
+        "vs_rule": 0.6163310318874817,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.6637476914036265,
+        "vs_rule": 0.6637476914036265,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.6272379159151853,
+        "vs_rule": 0.6272379159151853,
+        "unseen_contexts": 0.6176092578978267,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5306894234645881,
+        "vs_rule": 0.5306894234645881,
+        "unseen_contexts": 0.9998441069748689,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.6163310318874817,
+        "vs_rule": 0.6163310318874817,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.6729873237071861,
+        "vs_rule": 0.6729873237071861,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.7531165540987248,
+        "vs_rule": 0.7531165540987248,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.804101599247413,
+        "vs_rule": 0.804101599247413,
+        "unseen_contexts": 0.0717161671818304,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.8894602641749477,
+      "vs_rule": 0.8894602641749477,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.6637476914036265,
+    "best_local_vs_rule": 0.8894602641749477
+  },
+  "rule_p_0.9": {
+    "rule_p": 0.9,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.9501947451378848,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5976955924088873,
+        "vs_rule": 0.6086583842491207,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.6345491940899933,
+        "vs_rule": 0.6496311492612492,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5999677369876925,
+        "vs_rule": 0.611479285559393,
+        "unseen_contexts": 0.6226100248054963,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5271038838865744,
+        "vs_rule": 0.5306679209783631,
+        "unseen_contexts": 0.9998709850826502,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5976955924088873,
+        "vs_rule": 0.6086583842491207,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.6432326645399598,
+        "vs_rule": 0.6595895945265279,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.7087046665009441,
+        "vs_rule": 0.7320424602398041,
+        "unseen_contexts": 4.2312147288584714e-05,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.7396586480311786,
+        "vs_rule": 0.7666281413788469,
+        "unseen_contexts": 0.09063835505980379,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.8157564159445778,
+      "vs_rule": 0.8505663564490867,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.6345491940899933,
+    "best_local_vs_rule": 0.8505663564490867
+  },
+  "rule_p_0.75": {
+    "rule_p": 0.75,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.8753565985384345,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5728535663699701,
+        "vs_rule": 0.5973297304642788,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5964993284083278,
+        "vs_rule": 0.6288223010409671,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.565893235874354,
+        "vs_rule": 0.588427098814731,
+        "unseen_contexts": 0.6256908780299464,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5225211665098777,
+        "vs_rule": 0.5306383550598038,
+        "unseen_contexts": 0.9999059266227658,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5728535663699701,
+        "vs_rule": 0.5973297304642788,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.6047525604432505,
+        "vs_rule": 0.6397041848556078,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.6503297702979304,
+        "vs_rule": 0.6999698525950568,
+        "unseen_contexts": 2.6445092055365446e-06,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.6585458943690364,
+        "vs_rule": 0.7108990727052815,
+        "unseen_contexts": 0.10259911302244322,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.720860305869901,
+      "vs_rule": 0.792244204134215,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5964993284083278,
+    "best_local_vs_rule": 0.792244204134215
+  },
+  "rule_p_0.6": {
+    "rule_p": 0.6,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.8002227519637344,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5517067459715986,
+        "vs_rule": 0.5861866209513455,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5636516747817327,
+        "vs_rule": 0.6068276737743452,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5392947622850676,
+        "vs_rule": 0.5667817909674143,
+        "unseen_contexts": 0.6267539707305722,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5178631904313936,
+        "vs_rule": 0.5306329794382475,
+        "unseen_contexts": 0.999911302244322,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5517067459715986,
+        "vs_rule": 0.5861866209513455,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5714982790463399,
+        "vs_rule": 0.6196902283411686,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.6006262197798711,
+        "vs_rule": 0.6674794124958349,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5931756484343502,
+        "vs_rule": 0.6549281010616853,
+        "unseen_contexts": 0.10845854051874748,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.6411427624510218,
+      "vs_rule": 0.7335184660533588,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5636516747817327,
+    "best_local_vs_rule": 0.7335184660533588
+  },
+  "rule_p_0.5": {
+    "rule_p": 0.5,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.7500892310498001,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5397247672856702,
+        "vs_rule": 0.57881188946788,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5472921213901948,
+        "vs_rule": 0.5934430616185359,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5272886904919316,
+        "vs_rule": 0.5556536962305165,
+        "unseen_contexts": 0.6270977569272919,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5149092863862385,
+        "vs_rule": 0.5306329794382475,
+        "unseen_contexts": 0.9999247412982126,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5397247672856702,
+        "vs_rule": 0.57881188946788,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5532577442914708,
+        "vs_rule": 0.6069378567830759,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5739801450248848,
+        "vs_rule": 0.646069465967811,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5605187474801774,
+        "vs_rule": 0.6194086816288134,
+        "unseen_contexts": 0.11075661873404112,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5987849662965794,
+      "vs_rule": 0.6953836202979585,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5472921213901948,
+    "best_local_vs_rule": 0.6953836202979585
+  },
+  "rule_p_0.4": {
+    "rule_p": 0.4,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.7000312634335066,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5282549953221937,
+        "vs_rule": 0.5697515797396109,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5321918023841504,
+        "vs_rule": 0.5787100193082606,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.518601477751744,
+        "vs_rule": 0.5466676539501034,
+        "unseen_contexts": 0.6277112830629763,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5122859830667921,
+        "vs_rule": 0.5306302916274694,
+        "unseen_contexts": 0.9999274291089907,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.528717549352163,
+        "vs_rule": 0.5714371579844143,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5377534209200806,
+        "vs_rule": 0.5936896616856951,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5507401981266297,
+        "vs_rule": 0.6244876263414273,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5344631097970702,
+        "vs_rule": 0.584679478564709,
+        "unseen_contexts": 0.11225910495901088,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5637024049435247,
+      "vs_rule": 0.6562491647645572,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5321918023841504,
+    "best_local_vs_rule": 0.6562491647645572
+  },
+  "rule_p_0.3": {
+    "rule_p": 0.3,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.6500918363359256,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5181937918454599,
+        "vs_rule": 0.5595884575783076,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5187809561786434,
+        "vs_rule": 0.5577857412693082,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5123101903517726,
+        "vs_rule": 0.5381946464555644,
+        "unseen_contexts": 0.6281793611923563,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5092030641042871,
+        "vs_rule": 0.530619540384357,
+        "unseen_contexts": 0.999932804730547,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.519408976161481,
+        "vs_rule": 0.5639239216219183,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5247098514103425,
+        "vs_rule": 0.5799272792142377,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5316336191166281,
+        "vs_rule": 0.6000893844111471,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.516185996505846,
+        "vs_rule": 0.5538153473995431,
+        "unseen_contexts": 0.11297137481521301,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5364777386367888,
+      "vs_rule": 0.6171147092311557,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5187809561786434,
+    "best_local_vs_rule": 0.6171147092311557
+  },
+  "rule_p_0.2": {
+    "rule_p": 0.2,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.6004233589954017,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5086735413868259,
+        "vs_rule": 0.5465480925526188,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5084683512424446,
+        "vs_rule": 0.5372917016453996,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5067302759280905,
+        "vs_rule": 0.5324005267862337,
+        "unseen_contexts": 0.6280550692596961,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5057465394436231,
+        "vs_rule": 0.5306168525735788,
+        "unseen_contexts": 0.999932804730547,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5113443335824679,
+        "vs_rule": 0.5564681778507179,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5134501972800537,
+        "vs_rule": 0.5675579247817327,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5157744974110254,
+        "vs_rule": 0.5725494655446896,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5064238677597097,
+        "vs_rule": 0.5317027281279398,
+        "unseen_contexts": 0.11339604891815616,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5167287636377244,
+      "vs_rule": 0.5780791455741876,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5086735413868259,
+    "best_local_vs_rule": 0.5780791455741876
+  },
+  "rule_p_0.1": {
+    "rule_p": 0.1,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.550851277241523,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5024199154336249,
+        "vs_rule": 0.5330869862906302,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.501385157824043,
+        "vs_rule": 0.5173328366353257,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5029539167825843,
+        "vs_rule": 0.5291821590830957,
+        "unseen_contexts": 0.6277192165905929,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5030909823948394,
+        "vs_rule": 0.530619540384357,
+        "unseen_contexts": 0.9999247412982126,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5046595131945497,
+        "vs_rule": 0.5492293379466783,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5044414246138348,
+        "vs_rule": 0.5512246054398925,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.505460911509433,
+        "vs_rule": 0.5441976823521323,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5014218519016261,
+        "vs_rule": 0.5164897191237737,
+        "unseen_contexts": 0.11304394570622228,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5052252329304603,
+      "vs_rule": 0.539217310889332,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5030909823948394,
+    "best_local_vs_rule": 0.5512246054398925
+  },
+  "rule_p_0.05": {
+    "rule_p": 0.05,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.5257623718524888,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5013902753895123,
+        "vs_rule": 0.5208253845470368,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.49869354432505036,
+        "vs_rule": 0.49482926880456685,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5020204050330299,
+        "vs_rule": 0.5288753960152536,
+        "unseen_contexts": 0.6277059940445653,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5019594140572504,
+        "vs_rule": 0.530619540384357,
+        "unseen_contexts": 0.9999166778658782,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.502987001447768,
+        "vs_rule": 0.5412169613597521,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.4997192956682337,
+        "vs_rule": 0.5248961131631967,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5012429193266021,
+        "vs_rule": 0.5263736903068159,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.49950006719526946,
+        "vs_rule": 0.5123236124176858,
+        "unseen_contexts": 0.11306276038166913,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5025685160338478,
+      "vs_rule": 0.5199815045463536,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5020204050330299,
+    "best_local_vs_rule": 0.5453108974192105
+  },
+  "rule_p_0.0": {
+    "rule_p": 0.0,
+    "needle_mode": false,
+    "emitted_equals_rule": 0.5008636523506194,
+    "constant_vs_rule": 0.5453108974192105,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.500331889049752,
+        "vs_rule": 0.47755698299787275,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.49928905725319006,
+        "vs_rule": 0.4864002686366689,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.49937854033669893,
+        "vs_rule": 0.4753240846031385,
+        "unseen_contexts": 0.6277403726642372,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.49947587689826634,
+        "vs_rule": 0.46936433275097433,
+        "unseen_contexts": 0.9999139900551001,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5007630834844692,
+        "vs_rule": 0.4521269645479776,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5000262340496978,
+        "vs_rule": 0.4486835753861652,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.49996033236191695,
+        "vs_rule": 0.5002142052456484,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.49914796398333555,
+        "vs_rule": 0.5011718854992608,
+        "unseen_contexts": 0.11325090713613761,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5013711225029801,
+      "vs_rule": 0.5003634944647277,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.500331889049752,
+    "best_local_vs_rule": 0.5453108974192105
+  },
+  "needle_rule_p_1.0": {
+    "rule_p": 1.0,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 1.0,
+    "constant_vs_rule": 0.5774939736454369,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.6511271161193546,
+        "vs_rule": 0.6511271161193546,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.6988855775688382,
+        "vs_rule": 0.6988855775688382,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.6569198872381274,
+        "vs_rule": 0.6569198872381274,
+        "unseen_contexts": 0.6177890845238032,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5638677597097165,
+        "vs_rule": 0.5638677597097165,
+        "unseen_contexts": 0.9998736728934283,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.6511271161193546,
+        "vs_rule": 0.6511271161193546,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.7074746054398925,
+        "vs_rule": 0.7074746054398925,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.7849299998413295,
+        "vs_rule": 0.7849299998413295,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.8294825964252117,
+        "vs_rule": 0.8294825964252117,
+        "unseen_contexts": 0.07171347937105228,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.9025567559188125,
+      "vs_rule": 0.9025567559188125,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.6988855775688382,
+    "best_local_vs_rule": 0.9025567559188125
+  },
+  "needle_rule_p_0.5": {
+    "rule_p": 0.5,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.7502038636393242,
+    "constant_vs_rule": 0.5774939736454369,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5567791605036351,
+        "vs_rule": 0.6135609343068745,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5615870550705171,
+        "vs_rule": 0.6232344484553392,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5428886502953917,
+        "vs_rule": 0.5861131532598864,
+        "unseen_contexts": 0.6281423380634787,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5316435962908211,
+        "vs_rule": 0.5638193791157102,
+        "unseen_contexts": 0.9999354925413251,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5567791605036351,
+        "vs_rule": 0.6135609343068745,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5705774639019476,
+        "vs_rule": 0.6413910342511753,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5911562323148447,
+        "vs_rule": 0.6802418139217543,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.577981454105631,
+        "vs_rule": 0.6525010079290418,
+        "unseen_contexts": 0.11215696814944227,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.6019414880821925,
+      "vs_rule": 0.7014561160616444,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5615870550705171,
+    "best_local_vs_rule": 0.7014561160616444
+  },
+  "needle_rule_p_0.3": {
+    "rule_p": 0.3,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.6501361262000599,
+    "constant_vs_rule": 0.5774939736454369,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.529313381661954,
+        "vs_rule": 0.5973218905654658,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5275352585627938,
+        "vs_rule": 0.5899040883143049,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5209312903618217,
+        "vs_rule": 0.5676756350788857,
+        "unseen_contexts": 0.6290097370828948,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5195484477892757,
+        "vs_rule": 0.563814003494154,
+        "unseen_contexts": 0.9999408681628813,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.529713216501419,
+        "vs_rule": 0.5986781930601216,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5354133436870383,
+        "vs_rule": 0.6171114212558765,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5432747486394001,
+        "vs_rule": 0.6402965023721248,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5272705281548179,
+        "vs_rule": 0.5906302916274694,
+        "unseen_contexts": 0.11438785109528289,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5375174397160467,
+      "vs_rule": 0.6211452213841655,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.529313381661954,
+    "best_local_vs_rule": 0.6402965023721248
+  },
+  "needle_rule_p_0.1": {
+    "rule_p": 0.1,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.5507913556606354,
+    "constant_vs_rule": 0.5774939736454369,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5060968279769402,
+        "vs_rule": 0.5672140658237904,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5043574756548019,
+        "vs_rule": 0.5471845617864338,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5057253624299867,
+        "vs_rule": 0.5550401700948321,
+        "unseen_contexts": 0.6289542023895786,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5064292433812659,
+        "vs_rule": 0.5638059400618196,
+        "unseen_contexts": 0.9999408681628813,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5078738717078958,
+        "vs_rule": 0.5839600896884424,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.5089877854264607,
+        "vs_rule": 0.5975513138012088,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5093668516060105,
+        "vs_rule": 0.5841747280122283,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.5043596290821126,
+        "vs_rule": 0.5393038570084666,
+        "unseen_contexts": 0.11448192447251714,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5054524169709151,
+      "vs_rule": 0.5406017971593977,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5064292433812659,
+    "best_local_vs_rule": 0.5975513138012088
+  },
+  "needle_rule_p_0.0": {
+    "rule_p": 0.0,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.5007828884807274,
+    "constant_vs_rule": 0.5774939736454369,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5007055908931736,
+        "vs_rule": 0.4571471130879271,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.499005729516454,
+        "vs_rule": 0.4793511794828744,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.4996905924229522,
+        "vs_rule": 0.4556727366967964,
+        "unseen_contexts": 0.6289304018067287,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.49949469157371323,
+        "vs_rule": 0.4361994355597366,
+        "unseen_contexts": 0.9999354925413251,
+        "n_eval": 372050
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5011367853278907,
+        "vs_rule": 0.4125302489429203,
+        "unseen_contexts": 0.0,
+        "n_eval": 382658
+      },
+      "2": {
+        "vs_emitted": 0.4980219526527871,
+        "vs_rule": 0.4465402535258563,
+        "unseen_contexts": 0.0,
+        "n_eval": 381184
+      },
+      "4": {
+        "vs_emitted": 0.5006214596633011,
+        "vs_rule": 0.49953985539823664,
+        "unseen_contexts": 0.0,
+        "n_eval": 378142
+      },
+      "8": {
+        "vs_emitted": 0.4994785647090445,
+        "vs_rule": 0.5004757425077274,
+        "unseen_contexts": 0.11440397795995162,
+        "n_eval": 372050
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5013711225029801,
+      "vs_rule": 0.5004276405467384,
+      "n_eval": 374146
+    },
+    "recorded_style_ngram_null": 0.5007055908931736,
+    "best_local_vs_rule": 0.5774939736454369
+  },
+  "natural_rule_p_1.0": {
+    "rule_p": 1.0,
+    "needle_mode": false,
+    "carrier": "natural",
+    "emitted_equals_rule": 1.0,
+    "constant_vs_rule": 0.5473579002712115,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.6163230644613414,
+        "vs_rule": 0.6163230644613414,
+        "unseen_contexts": 0.0,
+        "n_eval": 382710
+      },
+      "2": {
+        "vs_emitted": 0.6681968537604567,
+        "vs_rule": 0.6681968537604567,
+        "unseen_contexts": 0.019343313650755343,
+        "n_eval": 381217
+      },
+      "4": {
+        "vs_emitted": 0.6736196643319677,
+        "vs_rule": 0.6736196643319677,
+        "unseen_contexts": 0.35786176820404386,
+        "n_eval": 378350
+      },
+      "8": {
+        "vs_emitted": 0.5354643261912307,
+        "vs_rule": 0.5354643261912307,
+        "unseen_contexts": 0.9902107179881078,
+        "n_eval": 372346
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.6178464111206919,
+        "vs_rule": 0.6178464111206919,
+        "unseen_contexts": 0.0,
+        "n_eval": 382710
+      },
+      "2": {
+        "vs_emitted": 0.6734746876450945,
+        "vs_rule": 0.6734746876450945,
+        "unseen_contexts": 0.0,
+        "n_eval": 381217
+      },
+      "4": {
+        "vs_emitted": 0.7539579754195851,
+        "vs_rule": 0.7539579754195851,
+        "unseen_contexts": 0.0,
+        "n_eval": 378350
+      },
+      "8": {
+        "vs_emitted": 0.805605538934217,
+        "vs_rule": 0.805605538934217,
+        "unseen_contexts": 0.07187400965768398,
+        "n_eval": 372346
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.8897948167032779,
+      "vs_rule": 0.8897948167032779,
+      "n_eval": 374202
+    },
+    "recorded_style_ngram_null": 0.6736196643319677,
+    "best_local_vs_rule": 0.8897948167032779
+  },
+  "natural_rule_p_0.3": {
+    "rule_p": 0.3,
+    "needle_mode": false,
+    "carrier": "natural",
+    "emitted_equals_rule": 0.6503556899316497,
+    "constant_vs_rule": 0.5473579002712115,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5174779859423585,
+        "vs_rule": 0.5603198244101277,
+        "unseen_contexts": 0.0,
+        "n_eval": 382710
+      },
+      "2": {
+        "vs_emitted": 0.5192423213025652,
+        "vs_rule": 0.5630598845277099,
+        "unseen_contexts": 0.019356429540130688,
+        "n_eval": 381217
+      },
+      "4": {
+        "vs_emitted": 0.5137068851592441,
+        "vs_rule": 0.5466816439804414,
+        "unseen_contexts": 0.3635839830844456,
+        "n_eval": 378350
+      },
+      "8": {
+        "vs_emitted": 0.5085807286770907,
+        "vs_rule": 0.5330928759809425,
+        "unseen_contexts": 0.9923055437684304,
+        "n_eval": 372346
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5193148859449714,
+        "vs_rule": 0.5653027096234747,
+        "unseen_contexts": 0.0,
+        "n_eval": 382710
+      },
+      "2": {
+        "vs_emitted": 0.5241817652413192,
+        "vs_rule": 0.5796252528087678,
+        "unseen_contexts": 0.0,
+        "n_eval": 381217
+      },
+      "4": {
+        "vs_emitted": 0.5310426853442579,
+        "vs_rule": 0.600248447204969,
+        "unseen_contexts": 0.0,
+        "n_eval": 378350
+      },
+      "8": {
+        "vs_emitted": 0.5156145090856354,
+        "vs_rule": 0.5534905705983145,
+        "unseen_contexts": 0.11284396770745489,
+        "n_eval": 372346
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5350612770642594,
+      "vs_rule": 0.6180485406277892,
+      "n_eval": 374202
+    },
+    "recorded_style_ngram_null": 0.5192423213025652,
+    "best_local_vs_rule": 0.6180485406277892
+  },
+  "natural_rule_p_0.0": {
+    "rule_p": 0.0,
+    "needle_mode": false,
+    "carrier": "natural",
+    "emitted_equals_rule": 0.5003002619639086,
+    "constant_vs_rule": 0.5473579002712115,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5001097436701419,
+        "vs_rule": 0.49805596927177237,
+        "unseen_contexts": 0.0,
+        "n_eval": 382710
+      },
+      "2": {
+        "vs_emitted": 0.500019673834063,
+        "vs_rule": 0.5059323167644675,
+        "unseen_contexts": 0.019356429540130688,
+        "n_eval": 381217
+      },
+      "4": {
+        "vs_emitted": 0.5008933527157394,
+        "vs_rule": 0.4849504427117748,
+        "unseen_contexts": 0.3632324567199683,
+        "n_eval": 378350
+      },
+      "8": {
+        "vs_emitted": 0.5008486730084384,
+        "vs_rule": 0.4670790071600071,
+        "unseen_contexts": 0.9922894297239664,
+        "n_eval": 372346
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.4986464947349168,
+        "vs_rule": 0.5143189360089885,
+        "unseen_contexts": 0.0,
+        "n_eval": 382710
+      },
+      "2": {
+        "vs_emitted": 0.4988602292132827,
+        "vs_rule": 0.5070445441834965,
+        "unseen_contexts": 0.0,
+        "n_eval": 381217
+      },
+      "4": {
+        "vs_emitted": 0.5009171402140875,
+        "vs_rule": 0.5003462402537333,
+        "unseen_contexts": 0.0,
+        "n_eval": 378350
+      },
+      "8": {
+        "vs_emitted": 0.5008567300306704,
+        "vs_rule": 0.4984235093166034,
+        "unseen_contexts": 0.11320116235974068,
+        "n_eval": 372346
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5004195594892598,
+      "vs_rule": 0.5004008530152164,
+      "n_eval": 374202
+    },
+    "recorded_style_ngram_null": 0.5008933527157394,
+    "best_local_vs_rule": 0.5473579002712115
+  },
+  "rule_p_1.0_seed1": {
+    "rule_p": 1.0,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 1.0,
+    "constant_vs_rule": 0.545630653384089,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.6159392065164256,
+        "vs_rule": 0.6159392065164256,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.6636886874407838,
+        "vs_rule": 0.6636886874407838,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.6277394660339277,
+        "vs_rule": 0.6277394660339277,
+        "unseen_contexts": 0.6186213591719373,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5310371338096698,
+        "vs_rule": 0.5310371338096698,
+        "unseen_contexts": 0.9998467766648925,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.6159392065164256,
+        "vs_rule": 0.6159392065164256,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.6726252496594658,
+        "vs_rule": 0.6726252496594658,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.7533561352135626,
+        "vs_rule": 0.7533561352135626,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.8046536883813702,
+        "vs_rule": 0.8046536883813702,
+        "unseen_contexts": 0.07115745444965942,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.8901224930626473,
+      "vs_rule": 0.8901224930626473,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.6636886874407838,
+    "best_local_vs_rule": 0.8901224930626473
+  },
+  "rule_p_0.5_seed1": {
+    "rule_p": 0.5,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.7500006509552116,
+    "constant_vs_rule": 0.545630653384089,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.53917096468091,
+        "vs_rule": 0.5781785481817635,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5459911447985534,
+        "vs_rule": 0.5930307937399447,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5287655506442457,
+        "vs_rule": 0.5557839270551451,
+        "unseen_contexts": 0.6281521218710239,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5159728606527851,
+        "vs_rule": 0.5310048762654366,
+        "unseen_contexts": 0.9998951629812423,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.53917096468091,
+        "vs_rule": 0.5781785481817635,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5534920830719728,
+        "vs_rule": 0.6064369493384845,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5729779202674856,
+        "vs_rule": 0.6458592896500096,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5600850523916281,
+        "vs_rule": 0.6191324871104229,
+        "unseen_contexts": 0.1105170346714838,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5984248600499382,
+      "vs_rule": 0.6955932439007437,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.5459911447985534,
+    "best_local_vs_rule": 0.6955932439007437
+  },
+  "rule_p_0.3_seed1": {
+    "rule_p": 0.3,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.6508757951417911,
+    "constant_vs_rule": 0.545630653384089,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5190633160889944,
+        "vs_rule": 0.5625697637638841,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5168482411638264,
+        "vs_rule": 0.558854020403182,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5112409037162833,
+        "vs_rule": 0.5394998928681961,
+        "unseen_contexts": 0.6284827755866458,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.509671887012575,
+        "vs_rule": 0.53098874749332,
+        "unseen_contexts": 0.9999112917533588,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5193090413837994,
+        "vs_rule": 0.5633958190102499,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5237849031150678,
+        "vs_rule": 0.5794330466459677,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.529276079981166,
+        "vs_rule": 0.6003190147048321,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5176905748832008,
+        "vs_rule": 0.5559910324027032,
+        "unseen_contexts": 0.11279925592597968,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5356037234469152,
+      "vs_rule": 0.618082029182328,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.5190633160889944,
+    "best_local_vs_rule": 0.618082029182328
+  },
+  "rule_p_0.1_seed1": {
+    "rule_p": 0.1,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.5505609932014238,
+    "constant_vs_rule": 0.545630653384089,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5041289691823883,
+        "vs_rule": 0.5321233540979922,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5026232287628701,
+        "vs_rule": 0.5220920741485333,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5034136689600809,
+        "vs_rule": 0.5298289329936858,
+        "unseen_contexts": 0.628678522586294,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5035698348951361,
+        "vs_rule": 0.5309941237506922,
+        "unseen_contexts": 0.9998978511099283,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5055170556881484,
+        "vs_rule": 0.548265414687576,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5058435406108357,
+        "vs_rule": 0.5543503079898903,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.50296133467711,
+        "vs_rule": 0.537899528884586,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5016747041714381,
+        "vs_rule": 0.5165615608350403,
+        "unseen_contexts": 0.11360838266049472,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5032401045815934,
+      "vs_rule": 0.5404050665397715,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.5041289691823883,
+    "best_local_vs_rule": 0.5543503079898903
+  },
+  "rule_p_0.05_seed1": {
+    "rule_p": 0.05,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.5252284201837777,
+    "constant_vs_rule": 0.545630653384089,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5017109277175519,
+        "vs_rule": 0.5239804360839753,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5015655387264152,
+        "vs_rule": 0.5087226621244609,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5013133565584503,
+        "vs_rule": 0.5289824594816936,
+        "unseen_contexts": 0.6287816865455681,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.501615565340344,
+        "vs_rule": 0.5309941237506922,
+        "unseen_contexts": 0.9998951629812423,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5022311333948518,
+        "vs_rule": 0.5438240606889196,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.4994632813586724,
+        "vs_rule": 0.5268923596985977,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.49898555440047193,
+        "vs_rule": 0.5220360862239081,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.49927958151212615,
+        "vs_rule": 0.5113734724708742,
+        "unseen_contexts": 0.11358687763100594,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5002994156048998,
+      "vs_rule": 0.5209858258791323,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.5017109277175519,
+    "best_local_vs_rule": 0.545630653384089
+  },
+  "rule_p_0.0_seed1": {
+    "rule_p": 0.0,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.5003332890683789,
+    "constant_vs_rule": 0.545630653384089,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.500369894991648,
+        "vs_rule": 0.49198386578170705,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5013503263616775,
+        "vs_rule": 0.49244263409436273,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5001256484119363,
+        "vs_rule": 0.5283317329693498,
+        "unseen_contexts": 0.629003885842466,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.4998736579517535,
+        "vs_rule": 0.5309995000080644,
+        "unseen_contexts": 0.9999005392386144,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.4997111420736601,
+        "vs_rule": 0.4665277708794613,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.4993819205866374,
+        "vs_rule": 0.5017387584346188,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.49842212046905215,
+        "vs_rule": 0.4942876264089155,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.4993629135013951,
+        "vs_rule": 0.5083116938974103,
+        "unseen_contexts": 0.11428847921807712,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5000347535969973,
+      "vs_rule": 0.5015532184504173,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.5013503263616775,
+    "best_local_vs_rule": 0.545630653384089
+  },
+  "needle_rule_p_1.0_seed1": {
+    "rule_p": 1.0,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 1.0,
+    "constant_vs_rule": 0.5773390754617744,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.6500531969122264,
+        "vs_rule": 0.6500531969122264,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.6971857046498994,
+        "vs_rule": 0.6971857046498994,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.6566438912387347,
+        "vs_rule": 0.6566438912387347,
+        "unseen_contexts": 0.6190525316171083,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5637113379891722,
+        "vs_rule": 0.5637113379891722,
+        "unseen_contexts": 0.9998494647935786,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.6500531969122264,
+        "vs_rule": 0.6500531969122264,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.7065238216466896,
+        "vs_rule": 0.7065238216466896,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.7845090056845987,
+        "vs_rule": 0.7845090056845987,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.8295135024703902,
+        "vs_rule": 0.8295135024703902,
+        "unseen_contexts": 0.07093433976871341,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.9033154931535414,
+      "vs_rule": 0.9033154931535414,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.6971857046498994,
+    "best_local_vs_rule": 0.9033154931535414
+  },
+  "needle_rule_p_0.5_seed1": {
+    "rule_p": 0.5,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.7499889337614015,
+    "constant_vs_rule": 0.5773390754617744,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5561704497034304,
+        "vs_rule": 0.6123029949730878,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5606360837648516,
+        "vs_rule": 0.6214624467546238,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.543824843468531,
+        "vs_rule": 0.5862675544057624,
+        "unseen_contexts": 0.6285541967892202,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5322656086192158,
+        "vs_rule": 0.5636844567023113,
+        "unseen_contexts": 0.9999005392386144,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5561704497034304,
+        "vs_rule": 0.6123029949730878,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5706618305123892,
+        "vs_rule": 0.6401911715688718,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5895582201836318,
+        "vs_rule": 0.6791230534415761,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5773132691408203,
+        "vs_rule": 0.6534894598474218,
+        "unseen_contexts": 0.11104928415133089,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.6018119990803663,
+      "vs_rule": 0.7024557426309007,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.5606360837648516,
+    "best_local_vs_rule": 0.7024557426309007
+  },
+  "needle_rule_p_0.3_seed1": {
+    "rule_p": 0.3,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.6509447963942289,
+    "constant_vs_rule": 0.5773390754617744,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5294831142282788,
+        "vs_rule": 0.5974627556261943,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5261522391271827,
+        "vs_rule": 0.5881990136974796,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5207637307261949,
+        "vs_rule": 0.5686767767346755,
+        "unseen_contexts": 0.6290356285991657,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5193437740251501,
+        "vs_rule": 0.563676392316253,
+        "unseen_contexts": 0.9999086036246727,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5294831142282788,
+        "vs_rule": 0.5974627556261943,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.534603261254688,
+        "vs_rule": 0.614712127216753,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5413674250540288,
+        "vs_rule": 0.6401958528088372,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5278570775740177,
+        "vs_rule": 0.5898399488180298,
+        "unseen_contexts": 0.11365408084815837,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5366650448321402,
+      "vs_rule": 0.6222444407611573,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.5294831142282788,
+    "best_local_vs_rule": 0.6401958528088372
+  },
+  "needle_rule_p_0.1_seed1": {
+    "rule_p": 0.1,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.550752374033657,
+    "constant_vs_rule": 0.5773390754617744,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5078671305820814,
+        "vs_rule": 0.5692723132945227,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5057149381001997,
+        "vs_rule": 0.5492167057285857,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5063525191845286,
+        "vs_rule": 0.5557839270551451,
+        "unseen_contexts": 0.6291467282476146,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5069730058117342,
+        "vs_rule": 0.5636844567023113,
+        "unseen_contexts": 0.9999139798820449,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5092578311867225,
+        "vs_rule": 0.5869122525428647,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.5099273264587855,
+        "vs_rule": 0.5951960400924888,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5090268464364788,
+        "vs_rule": 0.5870690590124299,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.5044407885894313,
+        "vs_rule": 0.5368784374445573,
+        "unseen_contexts": 0.11467825787756111,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5033871390304281,
+      "vs_rule": 0.541795210419663,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.5078671305820814,
+    "best_local_vs_rule": 0.5951960400924888
+  },
+  "needle_rule_p_0.0_seed1": {
+    "rule_p": 0.0,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.5005650291237361,
+    "constant_vs_rule": 0.5773390754617744,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5003385258050771,
+        "vs_rule": 0.48015245424673436,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.500702064726431,
+        "vs_rule": 0.49774683152283744,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.5009483148564037,
+        "vs_rule": 0.550511984213269,
+        "unseen_contexts": 0.6294906081118615,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.49988978672387,
+        "vs_rule": 0.5636737041875669,
+        "unseen_contexts": 0.9999086036246727,
+        "n_eval": 372006
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.4996797728870892,
+        "vs_rule": 0.4369466279431486,
+        "unseen_contexts": 0.0,
+        "n_eval": 382541
+      },
+      "2": {
+        "vs_emitted": 0.4989488713161286,
+        "vs_rule": 0.4804511061128185,
+        "unseen_contexts": 0.0,
+        "n_eval": 381019
+      },
+      "4": {
+        "vs_emitted": 0.4989379402654224,
+        "vs_rule": 0.4811434799055124,
+        "unseen_contexts": 0.0,
+        "n_eval": 378039
+      },
+      "8": {
+        "vs_emitted": 0.49871238635935977,
+        "vs_rule": 0.5129594683956711,
+        "unseen_contexts": 0.11516480916974457,
+        "n_eval": 372006
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5000347535969973,
+      "vs_rule": 0.5017055996064823,
+      "n_eval": 374062
+    },
+    "recorded_style_ngram_null": 0.5009483148564037,
+    "best_local_vs_rule": 0.5773390754617744
+  },
+  "rule_p_1.0_seed2": {
+    "rule_p": 1.0,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 1.0,
+    "constant_vs_rule": 0.5452680482330219,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.6154168675709104,
+        "vs_rule": 0.6154168675709104,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.6623783553405261,
+        "vs_rule": 0.6623783553405261,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.627703802690678,
+        "vs_rule": 0.627703802690678,
+        "unseen_contexts": 0.6200782704147377,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5308110496285001,
+        "vs_rule": 0.5308110496285001,
+        "unseen_contexts": 0.9998491371181957,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.6154168675709104,
+        "vs_rule": 0.6154168675709104,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.6712154337113888,
+        "vs_rule": 0.6712154337113888,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.7524035274715368,
+        "vs_rule": 0.7524035274715368,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.8037543305729018,
+        "vs_rule": 0.8037543305729018,
+        "unseen_contexts": 0.0700111530773334,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.8893123224526988,
+      "vs_rule": 0.8893123224526988,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.6623783553405261,
+    "best_local_vs_rule": 0.8893123224526988
+  },
+  "rule_p_0.5_seed2": {
+    "rule_p": 0.5,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.7498314737861875,
+    "constant_vs_rule": 0.5452680482330219,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5378215341397455,
+        "vs_rule": 0.5777892497012641,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5455074019410528,
+        "vs_rule": 0.5922131632741652,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5276836517708946,
+        "vs_rule": 0.5563987124622833,
+        "unseen_contexts": 0.6293901165041336,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5147926443569201,
+        "vs_rule": 0.5307652519679524,
+        "unseen_contexts": 0.9999245685590978,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5378215341397455,
+        "vs_rule": 0.5777892497012641,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5513374006519286,
+        "vs_rule": 0.6045782327421778,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5714880393685338,
+        "vs_rule": 0.644927536231884,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5580525757143088,
+        "vs_rule": 0.6161698069493909,
+        "unseen_contexts": 0.10997095889525267,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.596467813689232,
+      "vs_rule": 0.6943586857479767,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.5455074019410528,
+    "best_local_vs_rule": 0.6943586857479767
+  },
+  "rule_p_0.3_seed2": {
+    "rule_p": 0.3,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.6492020919416437,
+    "constant_vs_rule": 0.5452680482330219,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5172533070585522,
+        "vs_rule": 0.5619536278065449,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5172413793103449,
+        "vs_rule": 0.5567832929495427,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.510518249839588,
+        "vs_rule": 0.5386314343742874,
+        "unseen_contexts": 0.6297507119107845,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5084294635208164,
+        "vs_rule": 0.5307571700278557,
+        "unseen_contexts": 0.999913792638969,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.517538940483428,
+        "vs_rule": 0.5627161904362592,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5224347084869101,
+        "vs_rule": 0.5779144074106229,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5283677224688058,
+        "vs_rule": 0.5971327362297629,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5156574119472627,
+        "vs_rule": 0.551686700898173,
+        "unseen_contexts": 0.11190793053841885,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5339577638419896,
+      "vs_rule": 0.616044916117275,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.5172533070585522,
+    "best_local_vs_rule": 0.616044916117275
+  },
+  "rule_p_0.1_seed2": {
+    "rule_p": 0.1,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.5491398969675713,
+    "constant_vs_rule": 0.5452680482330219,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5029559128739439,
+        "vs_rule": 0.5299941301020943,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5031899248361629,
+        "vs_rule": 0.518272678721294,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5021476638190235,
+        "vs_rule": 0.5306002322658648,
+        "unseen_contexts": 0.6300741872020448,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5027559415729611,
+        "vs_rule": 0.5307410061476624,
+        "unseen_contexts": 0.9999191805990334,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5040670006918094,
+        "vs_rule": 0.5434424854824846,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5035345682617606,
+        "vs_rule": 0.5461835344630271,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5038127661379702,
+        "vs_rule": 0.5441225600152723,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5017914967214263,
+        "vs_rule": 0.514754928636469,
+        "unseen_contexts": 0.11284812956966363,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5027978774722625,
+      "vs_rule": 0.5383770166693467,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.5031899248361629,
+    "best_local_vs_rule": 0.5461835344630271
+  },
+  "rule_p_0.05_seed2": {
+    "rule_p": 0.05,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.523999827888122,
+    "constant_vs_rule": 0.5452680482330219,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5020308798557682,
+        "vs_rule": 0.5266739690991803,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5013088557575184,
+        "vs_rule": 0.5106168591145032,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5012064037501922,
+        "vs_rule": 0.5293752684579773,
+        "unseen_contexts": 0.6300423699602815,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5013011923555623,
+        "vs_rule": 0.5307437001276947,
+        "unseen_contexts": 0.9999218745790657,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5019915725037211,
+        "vs_rule": 0.5434424854824846,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5017876733411734,
+        "vs_rule": 0.542103061538583,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5012170094974466,
+        "vs_rule": 0.5274132052159065,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.50144397329727,
+        "vs_rule": 0.5096309786151865,
+        "unseen_contexts": 0.11293433693069467,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.49965964517339334,
+      "vs_rule": 0.5189151524896821,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.5020308798557682,
+    "best_local_vs_rule": 0.5452680482330219
+  },
+  "rule_p_0.0_seed2": {
+    "rule_p": 0.0,
+    "needle_mode": false,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.49930307728214485,
+    "constant_vs_rule": 0.5452680482330219,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.499785119808809,
+        "vs_rule": 0.49427684954193835,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5009984135878959,
+        "vs_rule": 0.5024032959487297,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.4999071997115237,
+        "vs_rule": 0.5287813466117289,
+        "unseen_contexts": 0.6298382093256336,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.4996928862763269,
+        "vs_rule": 0.5307490880877591,
+        "unseen_contexts": 0.9999245685590978,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.49921385295905746,
+        "vs_rule": 0.5162994486488753,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.49888582831495676,
+        "vs_rule": 0.5218480254036406,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5011984494397514,
+        "vs_rule": 0.4981174798623374,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.500967138831567,
+        "vs_rule": 0.5062958313352981,
+        "unseen_contexts": 0.11278347404889034,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.49894141609047543,
+      "vs_rule": 0.4997775633810366,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.5009984135878959,
+    "best_local_vs_rule": 0.5452680482330219
+  },
+  "needle_rule_p_1.0_seed2": {
+    "rule_p": 1.0,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 1.0,
+    "constant_vs_rule": 0.577125854778932,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.6502667658958932,
+        "vs_rule": 0.6502667658958932,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.6969847646558959,
+        "vs_rule": 0.6969847646558959,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.6571930829316407,
+        "vs_rule": 0.6571930829316407,
+        "unseen_contexts": 0.6202161451290454,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.563639890301133,
+        "vs_rule": 0.563639890301133,
+        "unseen_contexts": 0.999851831098228,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.6502667658958932,
+        "vs_rule": 0.6502667658958932,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.70581658129507,
+        "vs_rule": 0.70581658129507,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.7831548916357775,
+        "vs_rule": 0.7831548916357775,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.829018475315061,
+        "vs_rule": 0.829018475315061,
+        "unseen_contexts": 0.07015393401904105,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.9016428150292115,
+      "vs_rule": 0.9016428150292115,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.6969847646558959,
+    "best_local_vs_rule": 0.9016428150292115
+  },
+  "needle_rule_p_0.5_seed2": {
+    "rule_p": 0.5,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.7498132194961034,
+    "constant_vs_rule": 0.577125854778932,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5552268296262133,
+        "vs_rule": 0.6125814972432444,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5606085718870938,
+        "vs_rule": 0.6224023488370257,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.542346097350154,
+        "vs_rule": 0.5861876050631838,
+        "unseen_contexts": 0.6298302550151927,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5313390697148153,
+        "vs_rule": 0.563577928760392,
+        "unseen_contexts": 0.999938038459259,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5552268296262133,
+        "vs_rule": 0.6125814972432444,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5688957992965065,
+        "vs_rule": 0.6392556754353426,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5884651892860742,
+        "vs_rule": 0.6795022722813493,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5745909191321074,
+        "vs_rule": 0.6513289403498941,
+        "unseen_contexts": 0.11121557767013832,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5999222811813261,
+      "vs_rule": 0.7005359918529238,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.5606085718870938,
+    "best_local_vs_rule": 0.7005359918529238
+  },
+  "needle_rule_p_0.3_seed2": {
+    "rule_p": 0.3,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.6493233525829168,
+    "constant_vs_rule": 0.577125854778932,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5275754177061277,
+        "vs_rule": 0.597445546214964,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5260416255593878,
+        "vs_rule": 0.5870856057437063,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5197399470773212,
+        "vs_rule": 0.5666703786782057,
+        "unseen_contexts": 0.6303552395042874,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5182867364587094,
+        "vs_rule": 0.5635752347803598,
+        "unseen_contexts": 0.9999434264193234,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5275754177061277,
+        "vs_rule": 0.597445546214964,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5328845076203029,
+        "vs_rule": 0.6141493226835884,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5405590289377814,
+        "vs_rule": 0.6381159950577218,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5257409792078621,
+        "vs_rule": 0.5893593176687374,
+        "unseen_contexts": 0.11315254931330448,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5350592270997481,
+      "vs_rule": 0.6196333815726001,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.5275754177061277,
+    "best_local_vs_rule": 0.6381159950577218
+  },
+  "needle_rule_p_0.1_seed2": {
+    "rule_p": 0.1,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.5493250476241389,
+    "constant_vs_rule": 0.577125854778932,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5061424288798977,
+        "vs_rule": 0.5783081067482863,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.505944441375101,
+        "vs_rule": 0.542134631928714,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5044093394210323,
+        "vs_rule": 0.5559744825721058,
+        "unseen_contexts": 0.6310525673862666,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5060991707929461,
+        "vs_rule": 0.5635644588602309,
+        "unseen_contexts": 0.9999461203993556,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.5070831848388923,
+        "vs_rule": 0.5867906333200562,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5082069860011629,
+        "vs_rule": 0.5907319858038479,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5078562072787244,
+        "vs_rule": 0.5871447737528966,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5042591824309398,
+        "vs_rule": 0.538572406101326,
+        "unseen_contexts": 0.11404695068400153,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.5030042343356381,
+      "vs_rule": 0.5396258776866592,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.5061424288798977,
+    "best_local_vs_rule": 0.5907319858038479
+  },
+  "needle_rule_p_0.0_seed2": {
+    "rule_p": 0.0,
+    "needle_mode": true,
+    "carrier": "synthetic",
+    "emitted_equals_rule": 0.499475189160081,
+    "constant_vs_rule": 0.577125854778932,
+    "raw_ngram": {
+      "1": {
+        "vs_emitted": 0.5002358441122827,
+        "vs_rule": 0.48405169702941236,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.5017376868901324,
+        "vs_rule": 0.5069362777983862,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.49958372442026333,
+        "vs_rule": 0.5508306951537038,
+        "unseen_contexts": 0.6307980294521601,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.49969558025635913,
+        "vs_rule": 0.5635617648801987,
+        "unseen_contexts": 0.9999407324392912,
+        "n_eval": 371198
+      }
+    },
+    "reduced_ngram": {
+      "1": {
+        "vs_emitted": 0.49966457726253116,
+        "vs_rule": 0.5212416930462673,
+        "unseen_contexts": 0.0,
+        "n_eval": 381608
+      },
+      "2": {
+        "vs_emitted": 0.498806902339629,
+        "vs_rule": 0.503089951934081,
+        "unseen_contexts": 0.0,
+        "n_eval": 380103
+      },
+      "4": {
+        "vs_emitted": 0.5010367117941212,
+        "vs_rule": 0.489603716253838,
+        "unseen_contexts": 0.0,
+        "n_eval": 377154
+      },
+      "8": {
+        "vs_emitted": 0.5010317943523402,
+        "vs_rule": 0.5142457664103793,
+        "unseen_contexts": 0.11378294064084397,
+        "n_eval": 371198
+      }
+    },
+    "copy_previous_marker": {
+      "vs_emitted": 0.49894141609047543,
+      "vs_rule": 0.4996944846438334,
+      "n_eval": 373140
+    },
+    "recorded_style_ngram_null": 0.5017376868901324,
+    "best_local_vs_rule": 0.577125854778932
+  }
+}

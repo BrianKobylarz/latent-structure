@@ -1,0 +1,27 @@
+{
+  "model": "gpt2-xl",
+  "label": "head_dist",
+  "n_layer": 48,
+  "layers": {
+    "layer24": {
+      "trained": {
+        "norm_spearman": 0.5145392292432756,
+        "n_sentences": 450
+      },
+      "random_init": {
+        "norm_spearman": 0.22519711830016423,
+        "n_sentences": 450
+      }
+    },
+    "layer36": {
+      "trained": {
+        "norm_spearman": 0.4843760634214118,
+        "n_sentences": 450
+      },
+      "random_init": {
+        "norm_spearman": 0.2150921756779003,
+        "n_sentences": 450
+      }
+    }
+  }
+}

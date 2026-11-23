@@ -1,0 +1,71 @@
+{
+  "natural_rule_p_0.0": {
+    "layer4": {
+      "layer": 4,
+      "accuracy": {
+        "real": 0.5085333333333333,
+        "control_task": 0.15013333333333334,
+        "n_classes": 9
+      },
+      "mdl_trained": {
+        "total_bits": 52678.77724048889,
+        "uniform_bits": 79248.1250360578,
+        "compression": 1.5043653096630292,
+        "bits_per_token": 2.1071510896195558
+      },
+      "mdl_random_init": {
+        "total_bits": 72901.53716850263,
+        "uniform_bits": 79248.1250360578,
+        "compression": 1.0870569828025138,
+        "bits_per_token": 2.916061486740105
+      },
+      "mdl_ratio_rand_over_trained": 1.3838881801620584
+    }
+  },
+  "natural_rule_p_0.3": {
+    "layer4": {
+      "layer": 4,
+      "accuracy": {
+        "real": 0.7285333333333334,
+        "control_task": 0.1412,
+        "n_classes": 9
+      },
+      "mdl_trained": {
+        "total_bits": 34794.80917010126,
+        "uniform_bits": 79248.1250360578,
+        "compression": 2.277584700885634,
+        "bits_per_token": 1.3917923668040504
+      },
+      "mdl_random_init": {
+        "total_bits": 72685.26713921674,
+        "uniform_bits": 79248.1250360578,
+        "compression": 1.0902914463294326,
+        "bits_per_token": 2.9074106855686694
+      },
+      "mdl_ratio_rand_over_trained": 2.0889686959879716
+    }
+  },
+  "natural_rule_p_1.0": {
+    "layer4": {
+      "layer": 4,
+      "accuracy": {
+        "real": 0.8028,
+        "control_task": 0.14346666666666666,
+        "n_classes": 9
+      },
+      "mdl_trained": {
+        "total_bits": 26831.01701876061,
+        "uniform_bits": 79248.1250360578,
+        "compression": 2.9536012362351545,
+        "bits_per_token": 1.0732406807504244
+      },
+      "mdl_random_init": {
+        "total_bits": 68897.47333177621,
+        "uniform_bits": 79248.1250360578,
+        "compression": 1.1502326747809453,
+        "bits_per_token": 2.7558989332710486
+      },
+      "mdl_ratio_rand_over_trained": 2.567829362696247
+    }
+  }
+}

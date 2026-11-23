@@ -1,0 +1,47 @@
+{
+  "model": "gpt2-xl",
+  "n_layer": 48,
+  "n_positions": 10001,
+  "layers": {
+    "layer12": {
+      "accuracy": {
+        "real": 0.3995334888370543,
+        "control_task": 0.23192269243585473,
+        "n_classes": 13
+      },
+      "mdl_ratio": 2.6516535570447535,
+      "mdl_trained": 28079.728959944754,
+      "mdl_random": 74457.71317749008
+    },
+    "layer24": {
+      "accuracy": {
+        "real": 0.4101966011329557,
+        "control_task": 0.21926024658447185,
+        "n_classes": 13
+      },
+      "mdl_ratio": 2.680374891632928,
+      "mdl_trained": 29224.50504166997,
+      "mdl_random": 78332.6295340921
+    },
+    "layer36": {
+      "accuracy": {
+        "real": 0.4205264911696101,
+        "control_task": 0.21892702432522493,
+        "n_classes": 13
+      },
+      "mdl_ratio": 2.4718323265325286,
+      "mdl_trained": 31796.52581966322,
+      "mdl_random": 78595.68039246976
+    },
+    "layer48": {
+      "accuracy": {
+        "real": 0.4068643785404865,
+        "control_task": 0.18027324225258248,
+        "n_classes": 13
+      },
+      "mdl_ratio": 0.7657542006364134,
+      "mdl_trained": 63276.16772995104,
+      "mdl_random": 48453.991239384275
+    }
+  }
+}

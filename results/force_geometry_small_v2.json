@@ -1,0 +1,428 @@
+{
+  "layer1": {
+    "n_modal": 526,
+    "n_pred": 525,
+    "pred_pos": {
+      "acc": {
+        "real": 0.5443037974683544,
+        "control_task": 0.5,
+        "n_classes": 3
+      },
+      "mdl_ratio": 0.5242900719870758
+    },
+    "modal_pos": {
+      "mdl_ratio": 0.5336098211097019,
+      "ordered_trained": {
+        "axis_means": [
+          0.2677838206291199,
+          1.0704139471054077,
+          1.5701576471328735
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.5113636586375373,
+        "distant_confusion": 0.1602936155684534,
+        "adjacent_confusion": 0.044642857142857144,
+        "confusion_matrix": [
+          [
+            0.921,
+            0.0,
+            0.079
+          ],
+          [
+            0.179,
+            0.821,
+            0.0
+          ],
+          [
+            0.241,
+            0.0,
+            0.759
+          ]
+        ]
+      },
+      "ordered_random": {
+        "axis_means": [
+          0.011942308396100998,
+          1.0922925472259521,
+          1.3570667505264282
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.665153802397647,
+        "distant_confusion": 0.20450665756230796,
+        "adjacent_confusion": 0.008928571428571428,
+        "confusion_matrix": [
+          [
+            0.97,
+            0.0,
+            0.03
+          ],
+          [
+            0.0,
+            0.964,
+            0.036
+          ],
+          [
+            0.379,
+            0.0,
+            0.621
+          ]
+        ]
+      }
+    }
+  },
+  "layer2": {
+    "n_modal": 526,
+    "n_pred": 525,
+    "pred_pos": {
+      "acc": {
+        "real": 0.5189873417721519,
+        "control_task": 0.4936708860759494,
+        "n_classes": 3
+      },
+      "mdl_ratio": 0.561081962744036
+    },
+    "modal_pos": {
+      "mdl_ratio": 0.7538882800189292,
+      "ordered_trained": {
+        "axis_means": [
+          0.14052346348762512,
+          1.1012977361679077,
+          1.333103895187378
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.5427113968144844,
+        "distant_confusion": 0.17753499487879823,
+        "adjacent_confusion": 0.03571428571428571,
+        "confusion_matrix": [
+          [
+            0.921,
+            0.0,
+            0.079
+          ],
+          [
+            0.143,
+            0.857,
+            0.0
+          ],
+          [
+            0.276,
+            0.0,
+            0.724
+          ]
+        ]
+      },
+      "ordered_random": {
+        "axis_means": [
+          0.02193443290889263,
+          0.8054814338684082,
+          1.1621298789978027
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.5692800682203731,
+        "distant_confusion": 0.3228064185728917,
+        "adjacent_confusion": 0.008928571428571428,
+        "confusion_matrix": [
+          [
+            0.941,
+            0.0,
+            0.059
+          ],
+          [
+            0.0,
+            0.964,
+            0.036
+          ],
+          [
+            0.586,
+            0.0,
+            0.414
+          ]
+        ]
+      }
+    }
+  },
+  "layer3": {
+    "n_modal": 526,
+    "n_pred": 525,
+    "pred_pos": {
+      "acc": {
+        "real": 0.5632911392405063,
+        "control_task": 0.4873417721518987,
+        "n_classes": 3
+      },
+      "mdl_ratio": 0.6235843328292257
+    },
+    "modal_pos": {
+      "mdl_ratio": 0.8715404670777359,
+      "ordered_trained": {
+        "axis_means": [
+          0.12603582441806793,
+          0.8919788599014282,
+          1.4192878007888794
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.5819000836732187,
+        "distant_confusion": 0.20450665756230796,
+        "adjacent_confusion": 0.026785714285714284,
+        "confusion_matrix": [
+          [
+            0.97,
+            0.0,
+            0.03
+          ],
+          [
+            0.107,
+            0.893,
+            0.0
+          ],
+          [
+            0.379,
+            0.0,
+            0.621
+          ]
+        ]
+      },
+      "ordered_random": {
+        "axis_means": [
+          0.12587037682533264,
+          0.7269738912582397,
+          1.0206166505813599
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.4044594550350248,
+        "distant_confusion": 0.34260839877091154,
+        "adjacent_confusion": 0.026785714285714284,
+        "confusion_matrix": [
+          [
+            0.901,
+            0.0,
+            0.099
+          ],
+          [
+            0.036,
+            0.893,
+            0.071
+          ],
+          [
+            0.586,
+            0.0,
+            0.414
+          ]
+        ]
+      }
+    }
+  },
+  "layer4": {
+    "n_modal": 526,
+    "n_pred": 525,
+    "pred_pos": {
+      "acc": {
+        "real": 0.5506329113924051,
+        "control_task": 0.4873417721518987,
+        "n_classes": 3
+      },
+      "mdl_ratio": 0.6096402731333113
+    },
+    "modal_pos": {
+      "mdl_ratio": 0.9164742815533368,
+      "ordered_trained": {
+        "axis_means": [
+          0.17366868257522583,
+          0.9661785364151001,
+          1.429259181022644
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.5601648668836366,
+        "distant_confusion": 0.18726527825196315,
+        "adjacent_confusion": 0.031736209335219236,
+        "confusion_matrix": [
+          [
+            0.95,
+            0.02,
+            0.03
+          ],
+          [
+            0.107,
+            0.893,
+            0.0
+          ],
+          [
+            0.345,
+            0.0,
+            0.655
+          ]
+        ]
+      },
+      "ordered_random": {
+        "axis_means": [
+          0.07517854869365692,
+          0.6079062223434448,
+          1.0460261106491089
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.4043363547231799,
+        "distant_confusion": 0.3598497780812564,
+        "adjacent_confusion": 0.04464285714285714,
+        "confusion_matrix": [
+          [
+            0.901,
+            0.0,
+            0.099
+          ],
+          [
+            0.143,
+            0.821,
+            0.036
+          ],
+          [
+            0.621,
+            0.0,
+            0.379
+          ]
+        ]
+      }
+    }
+  },
+  "layer5": {
+    "n_modal": 526,
+    "n_pred": 525,
+    "pred_pos": {
+      "acc": {
+        "real": 0.569620253164557,
+        "control_task": 0.4810126582278481,
+        "n_classes": 3
+      },
+      "mdl_ratio": 0.5858054598081887
+    },
+    "modal_pos": {
+      "mdl_ratio": 0.8619494612610404,
+      "ordered_trained": {
+        "axis_means": [
+          0.09739140421152115,
+          0.8071589469909668,
+          1.3351857662200928
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.5046306119196614,
+        "distant_confusion": 0.09610788665073404,
+        "adjacent_confusion": 0.056046676096181046,
+        "confusion_matrix": [
+          [
+            0.97,
+            0.01,
+            0.02
+          ],
+          [
+            0.214,
+            0.786,
+            0.0
+          ],
+          [
+            0.172,
+            0.0,
+            0.828
+          ]
+        ]
+      },
+      "ordered_random": {
+        "axis_means": [
+          0.10284172743558884,
+          0.42463016510009766,
+          1.0648311376571655
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.3701091158428324,
+        "distant_confusion": 0.36480027313076135,
+        "adjacent_confusion": 0.0739038189533239,
+        "confusion_matrix": [
+          [
+            0.881,
+            0.01,
+            0.109
+          ],
+          [
+            0.286,
+            0.714,
+            0.0
+          ],
+          [
+            0.621,
+            0.0,
+            0.379
+          ]
+        ]
+      }
+    }
+  },
+  "layer6": {
+    "n_modal": 526,
+    "n_pred": 525,
+    "pred_pos": {
+      "acc": {
+        "real": 0.5759493670886076,
+        "control_task": 0.5189873417721519,
+        "n_classes": 3
+      },
+      "mdl_ratio": 0.8778883770106249
+    },
+    "modal_pos": {
+      "mdl_ratio": 1.0828771795707073,
+      "ordered_trained": {
+        "axis_means": [
+          0.03715982660651207,
+          0.7400254011154175,
+          1.2593880891799927
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.5260982195392165,
+        "distant_confusion": 0.15278251963127348,
+        "adjacent_confusion": 0.10068953323903819,
+        "confusion_matrix": [
+          [
+            0.96,
+            0.01,
+            0.03
+          ],
+          [
+            0.357,
+            0.607,
+            0.036
+          ],
+          [
+            0.276,
+            0.0,
+            0.724
+          ]
+        ]
+      },
+      "ordered_random": {
+        "axis_means": [
+          0.2098722755908966,
+          0.6308818459510803,
+          1.1450589895248413
+        ],
+        "monotonic": true,
+        "spearman_proj_vs_ordinal": 0.4127874587407044,
+        "distant_confusion": 0.36480027313076135,
+        "adjacent_confusion": 0.05604667609618105,
+        "confusion_matrix": [
+          [
+            0.881,
+            0.01,
+            0.109
+          ],
+          [
+            0.179,
+            0.786,
+            0.036
+          ],
+          [
+            0.621,
+            0.0,
+            0.379
+          ]
+        ]
+      }
+    }
+  }
+}

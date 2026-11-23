@@ -1,0 +1,28 @@
+[planted rule_p=1.0] vocab=68 ctx=256 params total=3,242,496 non_emb=3,159,552 ngram_null=0.699 oracle=1.000 device=cuda
+[planted rule_p=1.0] step   500 loss=3.515 marker_acc=0.955 (null=0.699 oracle=1.000 margin=+0.256)
+[planted rule_p=1.0] step  1000 loss=3.482 marker_acc=0.983 (null=0.699 oracle=1.000 margin=+0.284)
+[planted rule_p=1.0] step  1500 loss=3.477 marker_acc=0.986 (null=0.699 oracle=1.000 margin=+0.287)
+[planted rule_p=1.0] step  2000 loss=3.474 marker_acc=0.991 (null=0.699 oracle=1.000 margin=+0.292)
+[planted rule_p=1.0] step  2500 loss=3.473 marker_acc=0.994 (null=0.699 oracle=1.000 margin=+0.295)
+[planted rule_p=1.0] step  3000 loss=3.471 marker_acc=0.998 (null=0.699 oracle=1.000 margin=+0.299)
+[planted rule_p=1.0] step  3500 loss=3.470 marker_acc=0.998 (null=0.699 oracle=1.000 margin=+0.299)
+[planted rule_p=1.0] step  4000 loss=3.469 marker_acc=0.998 (null=0.699 oracle=1.000 margin=+0.299)
+[planted rule_p=0.0] vocab=68 ctx=256 params total=3,242,496 non_emb=3,159,552 ngram_null=0.501 oracle=0.501 device=cuda
+[planted rule_p=0.0] step   500 loss=3.586 marker_acc=0.444 (null=0.501 oracle=0.501 margin=-0.057)
+[planted rule_p=0.0] step  1000 loss=3.575 marker_acc=0.507 (null=0.501 oracle=0.501 margin=+0.006)
+[planted rule_p=0.0] step  1500 loss=3.574 marker_acc=0.510 (null=0.501 oracle=0.501 margin=+0.009)
+[planted rule_p=0.0] step  2000 loss=3.573 marker_acc=0.493 (null=0.501 oracle=0.501 margin=-0.008)
+[planted rule_p=0.0] step  2500 loss=3.571 marker_acc=0.483 (null=0.501 oracle=0.501 margin=-0.017)
+[planted rule_p=0.0] step  3000 loss=3.568 marker_acc=0.491 (null=0.501 oracle=0.501 margin=-0.010)
+[planted rule_p=0.0] step  3500 loss=3.565 marker_acc=0.494 (null=0.501 oracle=0.501 margin=-0.007)
+[planted rule_p=0.0] step  4000 loss=3.564 marker_acc=0.494 (null=0.501 oracle=0.501 margin=-0.006)
+=== planted-structure frontier: marker accuracy vs null/oracle ===
+condition           marker_acc  ngram_null   oracle   margin
+------------------------------------------------------------
+needle_rule_p=1.0        0.998       0.699    1.000   +0.299
+needle_rule_p=0.0        0.494       0.501    0.501   -0.006
+[planted] wrote <storage_root>\runs\planted\summary.json
+[probe needle_rule_p_0.0 L4] acc real=0.184 ctrl=0.151 | MDL trained=79070b rand=71334b (rand/trained=0.90)
+[probe needle_rule_p_1.0 L4] acc real=0.889 ctrl=0.172 | MDL trained=18427b rand=67948b (rand/trained=3.69)
+[probe] wrote <storage_root>\runs\planted\probe_results.json
+A6_EXIT=0

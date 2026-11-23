@@ -1,0 +1,207 @@
+{
+  "stats": {
+    "fvu": 0.0037053136620670557,
+    "l0": 36.218467712402344,
+    "n_features": 6144
+  },
+  "taxonomy": {
+    "token_detector": 129,
+    "explained_by_props": 3,
+    "unexplained": 1299,
+    "n_active": 1431
+  },
+  "top_unexplained": [
+    {
+      "feature": 1551,
+      "known_r2": 0.0008108243958425687,
+      "token_dominance": 0.12,
+      "n_fire": 320,
+      "top_words": [
+        "Fred",
+        "Fred",
+        "Fred",
+        "addition",
+        "addition",
+        "addition",
+        "addition",
+        "addition"
+      ]
+    },
+    {
+      "feature": 2030,
+      "known_r2": 0.0011883322487226122,
+      "token_dominance": 0.12,
+      "n_fire": 336,
+      "top_words": [
+        "record",
+        "record",
+        "record",
+        "record",
+        "records",
+        "record",
+        "record",
+        "record"
+      ]
+    },
+    {
+      "feature": 2313,
+      "known_r2": 0.0012033185505903043,
+      "token_dominance": 0.13,
+      "n_fire": 302,
+      "top_words": [
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length"
+      ]
+    },
+    {
+      "feature": 1223,
+      "known_r2": 0.00126145786012144,
+      "token_dominance": 0.08,
+      "n_fire": 303,
+      "top_words": [
+        "Blood",
+        "Blood",
+        "Blood",
+        "Blood",
+        "Blood",
+        "Blood",
+        "Blood",
+        "Blood"
+      ]
+    },
+    {
+      "feature": 4268,
+      "known_r2": 0.0013436212237520895,
+      "token_dominance": 0.05,
+      "n_fire": 311,
+      "top_words": [
+        "audition",
+        "verbally",
+        "individual",
+        "verbal",
+        "misinterpret",
+        "verbal",
+        "woman",
+        "four"
+      ]
+    },
+    {
+      "feature": 3211,
+      "known_r2": 0.0013437153920552447,
+      "token_dominance": 0.1,
+      "n_fire": 501,
+      "top_words": [
+        "gill",
+        "gill",
+        "gill",
+        "gill",
+        "gills",
+        "gills",
+        "gills",
+        "gills"
+      ]
+    },
+    {
+      "feature": 4021,
+      "known_r2": 0.0014511772147676183,
+      "token_dominance": 0.19,
+      "n_fire": 859,
+      "top_words": [
+        "m2",
+        "m2",
+        "m2",
+        "m2",
+        "km2",
+        "km2",
+        "km2",
+        "km2"
+      ]
+    },
+    {
+      "feature": 870,
+      "known_r2": 0.0014917870868673688,
+      "token_dominance": 0.13,
+      "n_fire": 410,
+      "top_words": [
+        "of",
+        "of",
+        "of",
+        "of",
+        "of",
+        "supply",
+        "supply",
+        "supply"
+      ]
+    },
+    {
+      "feature": 2623,
+      "known_r2": 0.001538465278058787,
+      "token_dominance": 0.06,
+      "n_fire": 372,
+      "top_words": [
+        "guest",
+        "guest",
+        "guest",
+        "wrote",
+        "guest",
+        "guest",
+        "guest",
+        "\u2014"
+      ]
+    },
+    {
+      "feature": 5990,
+      "known_r2": 0.0015899124830492939,
+      "token_dominance": 0.06,
+      "n_fire": 379,
+      "top_words": [
+        "Bostaph",
+        "Bostaph",
+        "Bostaph",
+        "Bostaph",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
+    },
+    {
+      "feature": 4028,
+      "known_r2": 0.0016653934168027185,
+      "token_dominance": 0.2,
+      "n_fire": 525,
+      "top_words": [
+        "time",
+        "time",
+        "time",
+        "time",
+        "time",
+        "time",
+        "time",
+        "time"
+      ]
+    },
+    {
+      "feature": 1724,
+      "known_r2": 0.0017226006331206856,
+      "token_dominance": 0.14,
+      "n_fire": 581,
+      "top_words": [
+        "terminus",
+        "terminus",
+        "terminus",
+        "terminus",
+        "terminus",
+        "terminus",
+        "terminus",
+        "terminus"
+      ]
+    }
+  ]
+}

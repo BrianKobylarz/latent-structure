@@ -1,0 +1,22 @@
+# Versions installed when the June 2026 results were produced. torch was the
+# CUDA 12.4 build; install it from the PyTorch index that matches your hardware.
+# The November 2026 runs on a rented card used torch 2.8.0 and transformers
+# 5.12.1 (see the README).
+torch==2.6.0
+transformers==5.1.0
+datasets==4.5.0
+tokenizers==0.22.2
+spacy==3.8.7            # plus: python -m spacy download en_core_web_sm
+numpy==2.2.6
+scikit-learn==1.7.0
+scipy                   # used directly (Spearman correlation); installed with scikit-learn
+pyyaml
+pytest
+tqdm==4.67.1
+
+# Optional, only for the --load-4bit runs on the 3.8B to 8B models:
+# bitsandbytes
+# accelerate
+
+# Optional, only for scripts/make_figures.py:
+# matplotlib

@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "n_layer": 36,
+  "layers": {
+    "layer18": {
+      "trained": {
+        "norm_spearman": 0.5885343440108709,
+        "root_acc": 0.19111111111111112,
+        "n_sentences": 450
+      }
+    },
+    "layer27": {
+      "trained": {
+        "norm_spearman": 0.48613350543599293,
+        "root_acc": 0.07555555555555556,
+        "n_sentences": 450
+      }
+    }
+  }
+}
